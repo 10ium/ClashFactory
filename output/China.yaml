@@ -136,13 +136,15 @@ proxy-groups:
 proxy-providers:
   proxy:
     type: http
-    url: "URL_WILL_BE_REPLACED_BY_SCRIPT"
+    # این دو خط توسط اسکریپت با مقادیر جدید جایگزین خواهند شد
+    url: "https://raw.githubusercontent.com/10ium/ClashFactory/main/providers/China.txt"
     interval: 3600
-    path: "./providers/proxy.yaml" # مسیر هم توسط اسکریپت تنظیم می‌شود
+    path: "./providers/China.txt"
     health-check:
       enable: true
       interval: 3600
       url: "https://www.gstatic.com/generate_204"
+
 
 # Rules
 rules:
