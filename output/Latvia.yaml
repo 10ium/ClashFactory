@@ -1,3 +1,4 @@
+# Global settings
 global-client-fingerprint: chrome
 port: 7890
 socks-port: 7891
@@ -18,9 +19,12 @@ unified-delay: false
 disable-keep-alive: false
 keep-alive-idle: 30
 keep-alive-interval: 30
+
 profile:
   store-selected: true
   store-fake-ip: true
+
+# DNS settings
 dns:
   enable: true
   ipv6: false
@@ -34,123 +38,117 @@ dns:
   fake-ip-filter-mode: blacklist
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-  - '*.lan'
-  - '*.localdomain'
-  - '*.invalid'
-  - '*.localhost'
-  - '*.test'
-  - '*.local'
-  - '*.home.arpa'
-  - time.*.com
-  - ntp.*.com
-  - '*.ir'
+    - '*.lan'
+    - '*.localdomain'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
+    - 'time.*.com'
+    - 'ntp.*.com'
+    - '*.ir'
   default-nameserver:
-  - 8.8.8.8
-  - 8.8.4.4
-  - 1.0.0.1
-  - 1.1.1.1
-  - 9.9.9.9
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.0.0.1
+    - 1.1.1.1
+    - 9.9.9.9
   nameserver:
-  - https://dns.nextdns.io/15441b
+    - 'https://dns.nextdns.io/15441b'
   proxy-server-nameserver:
-  - 1.1.1.1
-  - 8.8.8.8
+    - '1.1.1.1'
+    - '8.8.8.8'
+
+# Sniffer settings
 sniffer:
   enable: true
   force-dns-mapping: true
   parse-pure-ip: true
   override-destination: false
   sniff:
-    HTTP:
-      ports:
-      - 80
-      - 8080
-      - 8880
-      - 2052
-      - 2082
-      - 2086
-      - 2095
-    TLS:
-      ports:
-      - 443
-      - 8443
-      - 2053
-      - 2083
-      - 2087
-      - 2096
+    HTTP: { ports: [80, 8080, 8880, 2052, 2082, 2086, 2095] }
+    TLS: { ports: [443, 8443, 2053, 2083, 2087, 2096] }
+
+# TUN settings
 tun:
   enable: true
   stack: mixed
   auto-route: true
   auto-detect-interface: true
   auto-redir: true
-  dns-hijack:
-  - any:53
+  dns-hijack: ["any:53"]
+
+# Proxy Groups
 proxy-groups:
-- name: نوع انتخاب پروکسی 🔀
-  icon: https://www.svgrepo.com/show/412721/choose.svg
-  type: select
-  proxies:
-  - خودکار (بهترین پینگ) 🤖
-  - دستی 🤏🏻
-  - پشتیبان (در صورت قطعی) 🧯
-  - بدون فیلترشکن 🛡️
-- name: دستی 🤏🏻
-  type: select
-  icon: https://www.svgrepo.com/show/372331/cursor-hand-click.svg
-  use:
-  - proxy
-- name: خودکار (بهترین پینگ) 🤖
-  type: url-test
-  icon: https://www.svgrepo.com/show/7876/speedometer.svg
-  url: https://api.v2fly.org/checkConnection.svgz
-  interval: 360000
-  lazy: true
-  use:
-  - proxy
-- name: پشتیبان (در صورت قطعی) 🧯
-  type: fallback
-  icon: https://www.svgrepo.com/show/415208/backup-cloud-document.svg
-  url: https://www.gstatic.com/generate_204
-  interval: 360000
-  lazy: true
-  use:
-  - proxy
-- name: تلگرام 💬
-  type: select
-  icon: https://www.svgrepo.com/show/354443/telegram.svg
-  proxies:
-  - نوع انتخاب پروکسی 🔀
-  - بدون فیلترشکن 🛡️
-- name: سایتای ایرانی 🇮🇷
-  type: select
-  icon: https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Iran_%28civil%29.svg
-  proxies:
-  - بدون فیلترشکن 🛡️
-- name: بدون فیلترشکن 🛡️
-  type: select
-  icon: https://www.svgrepo.com/show/6318/connection.svg
-  proxies:
-  - DIRECT
-- name: اجازه ندادن 🚫
-  type: select
-  icon: https://www.svgrepo.com/show/444307/gui-ban.svg
-  proxies:
-  - REJECT
+  - name: نوع انتخاب پروکسی 🔀
+    icon: https://www.svgrepo.com/show/412721/choose.svg
+    type: select
+    proxies:
+      - خودکار (بهترین پینگ) 🤖
+      - دستی 🤏🏻
+      - پشتیبان (در صورت قطعی) 🧯
+      - بدون فیلترشکن 🛡️
+  - name: دستی 🤏🏻
+    type: select
+    icon: https://www.svgrepo.com/show/372331/cursor-hand-click.svg
+    use:
+      - proxy
+  - name: خودکار (بهترین پینگ) 🤖
+    type: url-test
+    icon: https://www.svgrepo.com/show/7876/speedometer.svg
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 360000
+    lazy: true
+    use:
+      - proxy
+  - name: پشتیبان (در صورت قطعی) 🧯
+    type: fallback
+    icon: https://www.svgrepo.com/show/415208/backup-cloud-document.svg
+    url: https://www.gstatic.com/generate_204
+    interval: 360000
+    lazy: true
+    use:
+      - proxy
+  - name: تلگرام 💬
+    type: select
+    icon: https://www.svgrepo.com/show/354443/telegram.svg
+    proxies:
+      - نوع انتخاب پروکسی 🔀
+      - بدون فیلترشکن 🛡️
+  - name: سایتای ایرانی 🇮🇷
+    type: select
+    icon: https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Iran_%28civil%29.svg
+    proxies:
+      - بدون فیلترشکن 🛡️
+  - name: بدون فیلترشکن 🛡️
+    type: select
+    icon: https://www.svgrepo.com/show/6318/connection.svg
+    proxies:
+      - DIRECT
+  - name: اجازه ندادن 🚫
+    type: select
+    icon: https://www.svgrepo.com/show/444307/gui-ban.svg
+    proxies:
+      - REJECT
+
+# Proxy Providers (این بخش توسط اسکریپت پر می‌شود)
 proxy-providers:
   proxy:
     type: http
-    url: https://raw.githubusercontent.com/10ium/ClashFactory/main/providers/Latvia.txt
+    url: "URL_WILL_BE_REPLACED_BY_SCRIPT"
     interval: 3600
-    path: ./providers/Latvia.txt
+    path: "./providers/proxy.yaml" # مسیر هم توسط اسکریپت تنظیم می‌شود
     health-check:
       enable: true
       interval: 3600
-      url: https://www.gstatic.com/generate_204
+      url: "https://www.gstatic.com/generate_204"
+
+# Rules
 rules:
-- PROCESS-NAME,Telegram.exe,تلگرام 💬
-- PROCESS-NAME,org.telegram.messenger,تلگرام 💬
-- PROCESS-NAME,org.telegram.messenger.web,تلگرام 💬
-- DOMAIN-SUFFIX,ir,سایتای ایرانی 🇮🇷
-- GEOIP,ir,سایتای ایرانی 🇮🇷
-- MATCH,نوع انتخاب پروکسی 🔀
+  - PROCESS-NAME,Telegram.exe,تلگرام 💬
+  - PROCESS-NAME,org.telegram.messenger,تلگرام 💬
+  - PROCESS-NAME,org.telegram.messenger.web,تلگرام 💬
+  - DOMAIN-SUFFIX,ir,سایتای ایرانی 🇮🇷
+  - GEOIP,ir,سایتای ایرانی 🇮🇷
+  - MATCH,نوع انتخاب پروکسی 🔀
