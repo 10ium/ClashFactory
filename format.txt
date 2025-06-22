@@ -1,0 +1,1 @@
+https://url.v1.mk/sub?url=[URL]&target=clash&config=https%3A%2F%2Fraw.githubusercontent.com%2F10ium%2Fclash_rules%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Fvpnclashfa.ini&list=true&udp=false&tfo=false&expand=false&scv=false&fdn=true&new_name=false&insert=false&xudp=false&tls13=false&sort=true&append_type=false&f_un=true&emoji=true
