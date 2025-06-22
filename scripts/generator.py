@@ -1,8 +1,7 @@
 import os
 import sys
-import yaml
 import requests
-import copy  # برای کپی عمیق و مطمئن
+import copy
 from urllib.parse import urlparse, quote_plus
 
 # --- Configuration ---
@@ -65,19 +64,26 @@ def update_readme(output_files):
 
 
 def main():
-    print("Starting advanced config generation process with corrected YAML format...")
+    """
+    Main function using text replacement to preserve YAML formatting.
+    """
+    print("Starting final generation process using text replacement...")
     try:
+        # --- NEW: Read template as raw text lines ---
         with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
-            template_data = yaml.safe_load(f)
+            template_lines = f.readlines()
+            
         with open(FORMAT_FILE, 'r', encoding='utf-8') as f:
             format_string = f.read().strip()
+            
         if "[URL]" not in format_string:
             print(f"Warning: Placeholder [URL] not found in {FORMAT_FILE}. Using original URLs directly.")
             format_string = "[URL]"
+            
     except FileNotFoundError as e:
         sys.exit(f"CRITICAL ERROR: A required file is missing: {e.filename}")
     except Exception as e:
-        sys.exit(f"CRITICAL ERROR: Could not read template or format file: {e}")
+        sys.exit(f"CRITICAL ERROR: Could not read required files: {e}")
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(PROVIDERS_DIR, exist_ok=True)
@@ -121,36 +127,50 @@ def main():
 
         if not GITHUB_REPO:
             continue
-        
-        # استفاده از copy.deepcopy برای ساخت یک کپی کامل و امن از تمپلیت
-        config_data = copy.deepcopy(template_data)
-        
+
+        # --- CORE LOGIC: Text Replacement ---
         raw_provider_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{provider_path}"
-        config_data['proxy-providers']['proxy']['url'] = raw_provider_url
-        config_data['proxy-providers']['proxy']['path'] = f"./{provider_path}"
         
+        new_output_lines = []
+        in_proxy_providers_section = False
+        in_target_proxy_block = False
+
+        for line in template_lines:
+            stripped_line = line.strip()
+
+            if "proxy-providers:" in stripped_line:
+                in_proxy_providers_section = True
+            
+            if in_proxy_providers_section and "proxy:" in stripped_line and len(line) - len(line.lstrip(' ')) == 4:
+                in_target_proxy_block = True
+                new_output_lines.append(line)
+                continue
+
+            if in_target_proxy_block:
+                indentation = ' ' * (len(line) - len(line.lstrip(' ')))
+                if stripped_line.startswith("url:"):
+                    new_output_lines.append(f'{indentation}url: "{raw_provider_url}"\n')
+                    continue
+                if stripped_line.startswith("path:"):
+                    new_output_lines.append(f'{indentation}path: "./{provider_path}"\n')
+                    # We are done with this block, reset the flag
+                    in_target_proxy_block = False 
+                    continue
+
+            new_output_lines.append(line)
+
+        # Write the modified lines to the new file
         output_filename = f"{file_name_base}.yaml"
         output_path = os.path.join(OUTPUT_DIR, output_filename)
-        
         with open(output_path, 'w', encoding='utf-8') as f:
-            # --- این بخش کلیدی و اصلاح شده است ---
-            # sort_keys=False: ترتیب کلیدها را حفظ می‌کند
-            # default_flow_style=False: فرمت بلاک با تورفتگی را اعمال می‌کند
-            yaml.dump(
-                config_data, 
-                f, 
-                allow_unicode=True, 
-                sort_keys=False, 
-                default_flow_style=False
-            )
+            f.writelines(new_output_lines)
             
         generated_files.append(output_filename)
-        print(f"  -> Generated final config with correct format: {output_path}\n")
+        print(f"  -> Generated final config with 100% format preservation: {output_path}\n")
 
     if generated_files:
         update_readme(generated_files)
 
 if __name__ == "__main__":
     main()
-
 
