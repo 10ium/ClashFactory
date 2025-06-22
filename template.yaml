@@ -136,9 +136,9 @@ proxy-groups:
 proxy-providers:
   proxy:
     type: http
-    url: "YOUR_SUBSCRIPTION_LINK_HERE"  # این لینک جایگزین خواهد شد
+    url: "URL_WILL_BE_REPLACED_BY_SCRIPT"
     interval: 3600
-    path: ./proxy.yaml
+    path: "./providers/proxy.yaml" # مسیر هم توسط اسکریپت تنظیم می‌شود
     health-check:
       enable: true
       interval: 3600
