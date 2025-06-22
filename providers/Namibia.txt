@@ -1,0 +1,2 @@
+proxies:
+  - {name: 🇬🇧 VM-TCP-NA 🇬🇧 GB-46.250.243.56:50394, server: 46.250.243.56, port: 50394, client-fingerprint: chrome, type: vmess, uuid: a75f3f95-ad4e-4498-fc72-dd740dd02bfc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}

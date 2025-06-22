@@ -1,0 +1,5 @@
+proxies:
+  - {name: "@GrizzlyVPN@GrizzlyVPN", server: 193.151.132.16, port: 8543, client-fingerprint: chrome, type: vless, uuid: 13bc58c3-a9e9-40ad-be26-0335e72b890c, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
+  - {name: TR-GRPC-TLS 🇮🇷 IR-78.39.9.168:6161, server: 78.39.9.168, port: 6161, client-fingerprint: chrome, type: trojan, password: -EleP1yiGc6SD72p-m8Brw, sni: speedtest.net, alpn: [h2], skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: gg}}
+  - {name: VM-GRPC-NONE 🇮🇷 IR-193.24.105.60:3245, server: 193.24.105.60, port: 3245, client-fingerprint: chrome, type: vmess, uuid: 1879e00d-6bdb-42f8-97ce-0dc0bf5970ef, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: grpc, servername: "", grpc-opts: {grpc-mode: multi, grpc-service-name: /}}
+  - {name: vpn_solve 🔓 VL-GRPC-N/A 🇦🇪 AE 133ms, server: power.dlmoviz.ir, port: 2023, client-fingerprint: chrome, type: vless, uuid: 737d83d2-368e-430b-8292-7a7f1d38d783, tls: false, tfo: false, skip-cert-verify: false, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: 2023vless}}

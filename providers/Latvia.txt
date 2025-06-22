@@ -1,0 +1,3 @@
+proxies:
+  - {name: vpn_solve 🔓 VL-TCP-N/A 🇦🇪 AE 247ms, server: 10011001100110011101.allmobo.sbs, port: 1043, client-fingerprint: chrome, type: vless, uuid: 8145d8de-9256-4fbc-9943-50600a1f0a82, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [rubika.ir%2C+igap.net%2C+splus.ir%2C+skyroom.online]}}}
+  - {name: 🇬🇧 vpn_solve 🔓 VL-TCP-N/A 🇬🇧 GB 117ms, server: srv3-grmny-mostaghim.vreexybot.shop, port: 12045, client-fingerprint: chrome, type: vless, uuid: a285d843-f490-4b39-aeb4-3128d256f072, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}}

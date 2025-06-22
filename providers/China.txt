@@ -1,0 +1,2 @@
+proxies:
+  - {name: 15|CN_speednode_0001, server: 42.240.152.238, port: 8842, client-fingerprint: chrome, type: trojan, password: 1b4c16925f934c57b954a9f0f23dea33, sni: brwx.spvpv.com, skip-cert-verify: false}

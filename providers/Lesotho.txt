@@ -1,0 +1,2 @@
+proxies:
+  - {name: VL-WS-TLS 🏴‍☠️ NA-162.159.195.224:443, server: 162.159.195.224, port: 443, client-fingerprint: chrome, type: vless, uuid: 4cbb71d8-4262-43af-8b4f-e126b794ff8d, tls: true, alpn: [h3%2Ch2], tfo: false, skip-cert-verify: false, servername: xxx.66500-280b-471c-b2b8-d68b7f9960001.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xxx.66500-280b-471c-b2b8-d68b7f9960001.workers.dev}}}

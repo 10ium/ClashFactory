@@ -1,0 +1,3 @@
+proxies:
+  - {name: vmess-BB13, server: 102.177.189.14, port: 80, client-fingerprint: chrome, type: vmess, uuid: 00013ec5-193c-4fa1-bb1c-99883a974bb0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: h3.grAsSoRy.shop}}}
+  - {name: vmess-BB15, server: 102.177.189.30, port: 80, client-fingerprint: chrome, type: vmess, uuid: 00013ec5-193c-4fa1-bb1c-99883a974bb0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: h3.grAsSoRy.shop}}}

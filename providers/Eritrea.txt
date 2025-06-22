@@ -1,0 +1,13 @@
+proxies:
+  - {name: "@appsooner کانال تلگرام 🇸🇬", server: 84.247.146.161, port: 39530, client-fingerprint: chrome, type: vmess, uuid: 7aa56e39-29b8-45c3-8b53-6d2a23b2461c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: "@appsooner کانال تلگرام 🇸🇬 2", server: 84.247.146.189, port: 33754, client-fingerprint: chrome, type: vmess, uuid: 45f4f565-8c78-4906-a5b9-08ea9075cd31, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: PersianGulf 3100 (@Outline_Vpn), server: series-a2-me.varzesh360.co, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, tfo: false}
+  - {name: PersianGulf 3200 (@Outline_Vpn), server: series-a2-mec.varzesh360.co, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, tfo: false}
+  - {name: PersianGulf 3400 (@Outline_Vpn), server: api.namasha.co, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, tfo: false}
+  - {name: PersianGulf 500 (@Outline_Vpn), server: series-a2-me.varzesh360.co, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, tfo: false}
+  - {name: PersianGulf 600 (@Outline_Vpn), server: series-a2-mec.varzesh360.co, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, tfo: false}
+  - {name: PersianGulf 700 (@Outline_Vpn), server: api.namasha.co, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, tfo: false}
+  - {name: Server-1, server: azure-sto.edgeservers.org, port: 48172, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 51yloQC8D9w1Wae7FHtI65, tfo: false}
+  - {name: Server-2, server: azure-sto.edgeservers.org, port: 48172, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 51yloQC8D9w1Wae7FHtI65, tfo: false}
+  - {name: Server-3, server: azure-sto.edgeservers.org, port: 48172, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 51yloQC8D9w1Wae7FHtI65, tfo: false}
+  - {name: Server-4, server: azure-sto.edgeservers.org, port: 48172, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 51yloQC8D9w1Wae7FHtI65, tfo: false}

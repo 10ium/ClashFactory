@@ -1,0 +1,2 @@
+proxies:
+  - {name: "@server_nekobox", server: 217.60.38.40, port: 47460, client-fingerprint: chrome, type: vless, uuid: 42c6ca3b-b298-47f2-958d-ad386cf8289b, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}

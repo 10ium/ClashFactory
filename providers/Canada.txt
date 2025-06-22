@@ -1,0 +1,5 @@
+proxies:
+  - {name: "@Capoit", server: iranm.nimhub.ir, port: 2096, client-fingerprint: chrome, type: vless, uuid: 187b6dee-d77a-4ad9-b7d6-79e496ee9c05, tls: true, alpn: [h2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: mJe.nimhub.ir, network: ws, ws-opts: {path: /, headers: {Host: mJe.nimhub.ir}}}
+  - {name: 🇨🇦 CA-142.4.216.225-0384, server: ca225.vpnbook.com, port: 80, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, tfo: false}
+  - {name: 🇨🇦 CA-51.79.102.253-1062, server: 51.79.102.253, port: 80, client-fingerprint: chrome, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: 51.79.102.253}}}
+  - {name: 🇨🇦 soskeynet 🔓 VM-TCP-N/A 🇨🇦 CA down, server: 99.199.73.53, port: 33641, client-fingerprint: chrome, type: vmess, uuid: f27a25c2-d4e4-4d0a-b75b-22e58c7784a8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}

@@ -1,0 +1,2 @@
+proxies:
+  - {name: 🇷🇺 RU-5.189.201.250-0361, server: 5.189.201.250, port: 31348, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: RiPuKJJl18ZgvLpTjWxBwSfKiPkt9gzFKyxGCY8eHtOcDb2X, tfo: false}

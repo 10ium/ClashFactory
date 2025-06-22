@@ -1,0 +1,2 @@
+proxies:
+  - {name: VL-GRPC-RLT 🇫🇮 FI-65.109.203.8:14787, server: 65.109.203.8, port: 14787, reality-opts: {public-key: ---rivmiDN3OHmQHOpowqKDVft8FWrl4BqZ_gyImCR4, short-id: be31134d}, client-fingerprint: chrome, type: vless, uuid: 29b198d6-25e1-4c15-9b53-feacf78ac3d0, tls: true, tfo: false, skip-cert-verify: false, servername: tgju.org, network: grpc, grpc-opts: {grpc-service-name: digikala.ir}}

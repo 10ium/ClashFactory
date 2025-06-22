@@ -1,0 +1,2 @@
+proxies:
+  - {name: "برای اتصال دائمی عضو کانال شوید: @V2ray_Hub1", server: 57.129.25.20, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: 57.129.25.20, network: ws, ws-opts: {path: linkvws, headers: {Host: 57.129.25.20}}}
