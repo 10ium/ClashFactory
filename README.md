@@ -13,6 +13,7 @@
 برای استفاده، لینک‌های زیر را مستقیما در کلش کپی کنید.
 
 * **10ium-HiN-VPN**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-HiN-VPN.yaml`
+* **10ium-config-fetcher**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-config-fetcher.yaml`
 * **Albania**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Albania.yaml`
 * **Andorra**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Andorra.yaml`
 * **Angola**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Angola.yaml`
