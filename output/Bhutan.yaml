@@ -1,5 +1,4 @@
-# Global settings
-global-client-fingerprint: chrome
+Global-client-fingerprint: chrome
 port: 7890
 socks-port: 7891
 redir-port: 7892
@@ -19,12 +18,9 @@ unified-delay: false
 disable-keep-alive: false
 keep-alive-idle: 30
 keep-alive-interval: 30
-
 profile:
   store-selected: true
   store-fake-ip: true
-
-# DNS settings
 dns:
   enable: true
   ipv6: false
@@ -54,32 +50,55 @@ dns:
     - 1.0.0.1
     - 1.1.1.1
     - 9.9.9.9
+    - 9.9.9.11
+    - 9.9.9.10
+    - 94.140.14.15
+    - 94.140.15.15
+    - 223.5.5.5
+    - 77.88.8.8
+    - 208.67.222.222
+    - 208.67.220.220
+    - 209.244.0.3
+    - 209.224.0.4
+    - 74.82.42.42
   nameserver:
     - 'https://dns.nextdns.io/15441b'
+    - 'tls://15441b.dns.nextdns.io'
+  direct-nameserver:
+    - '78.157.42.100'
+    - '78.157.42.101'
   proxy-server-nameserver:
     - '1.1.1.1'
     - '8.8.8.8'
-
-# Sniffer settings
+    - '8.8.4.4'
+    - '9.9.9.9'
+    - '223.5.5.5'
+    - '77.88.8.8'
+    - '208.67.222.222'
+    - '208.67.220.220'
+    - '209.244.0.3'
+    - '209.224.0.4'
+    - '74.82.42.42'
 sniffer:
   enable: true
   force-dns-mapping: true
   parse-pure-ip: true
   override-destination: false
   sniff:
-    HTTP: { ports: [80, 8080, 8880, 2052, 2082, 2086, 2095] }
-    TLS: { ports: [443, 8443, 2053, 2083, 2087, 2096] }
-
-# TUN settings
+    HTTP:
+      ports: [80, 8080, 8880, 2052, 2082, 2086, 2095]
+    TLS:
+      ports: [443, 8443, 2053, 2083, 2087, 2096]
 tun:
   enable: true
   stack: mixed
   auto-route: true
   auto-detect-interface: true
   auto-redir: true
-  dns-hijack: ["any:53"]
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
 
-# Proxy Groups
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     icon: https://www.svgrepo.com/show/412721/choose.svg
@@ -99,6 +118,8 @@ proxy-groups:
     icon: https://www.svgrepo.com/show/7876/speedometer.svg
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 360000
+    timeout: 120000
+    tolerance: 10
     lazy: true
     use:
       - proxy
@@ -107,6 +128,8 @@ proxy-groups:
     icon: https://www.svgrepo.com/show/415208/backup-cloud-document.svg
     url: https://www.gstatic.com/generate_204
     interval: 360000
+    timeout: 120000
+    tolerance: 6
     lazy: true
     use:
       - proxy
@@ -116,23 +139,42 @@ proxy-groups:
     proxies:
       - نوع انتخاب پروکسی 🔀
       - بدون فیلترشکن 🛡️
+      - خودکار (بهترین پینگ) 🤖
+      - دستی 🤏🏻
+      - پشتیبان (در صورت قطعی) 🧯
+      - اجازه ندادن 🚫
   - name: سایتای ایرانی 🇮🇷
     type: select
     icon: https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Iran_%28civil%29.svg
     proxies:
       - بدون فیلترشکن 🛡️
+      - اجازه ندادن 🚫
+      - نوع انتخاب پروکسی 🔀
+      - خودکار (بهترین پینگ) 🤖
+      - دستی 🤏🏻
+      - پشتیبان (در صورت قطعی) 🧯
   - name: بدون فیلترشکن 🛡️
     type: select
     icon: https://www.svgrepo.com/show/6318/connection.svg
     proxies:
       - DIRECT
+    hidden: true
   - name: اجازه ندادن 🚫
     type: select
     icon: https://www.svgrepo.com/show/444307/gui-ban.svg
     proxies:
       - REJECT
+    hidden: true
 
-# Proxy Providers (این بخش توسط اسکریپت پر می‌شود)
+rule-providers:
+  apps:
+    type: http
+    format: yaml
+    behavior: classical
+    url: "https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/apps.yaml"
+    path: ./ruleset/apps.yaml
+    interval: 86400
+
 proxy-providers:
   proxy:
     type: http
@@ -145,12 +187,17 @@ proxy-providers:
       interval: 3600
       url: "https://www.gstatic.com/generate_204"
 
-
-# Rules
 rules:
-  - PROCESS-NAME,Telegram.exe,تلگرام 💬
-  - PROCESS-NAME,org.telegram.messenger,تلگرام 💬
+  - PROCESS-NAME,Telegram.exe,تلگرام 💬 
+  - PROCESS-NAME,org.telegram.messenger,تلگرام 💬 
   - PROCESS-NAME,org.telegram.messenger.web,تلگرام 💬
   - DOMAIN-SUFFIX,ir,سایتای ایرانی 🇮🇷
   - GEOIP,ir,سایتای ایرانی 🇮🇷
-  - MATCH,نوع انتخاب پروکسی 🔀
+  - IP-CIDR,10.10.34.0/24,نوع انتخاب پروکسی 🔀
+  - RULE-SET,apps,سایتای ایرانی 🇮🇷
+  - MATCH,نوع انتخاب پروکسی 🔀 
+ntp:
+  enable: true
+  server: "time.apple.com"
+  port: 123
+  interval: 30
