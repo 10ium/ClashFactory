@@ -7,7 +7,7 @@ from urllib.parse import urlparse, quote_plus
 # --- Configuration ---
 TEMPLATE_FILE = 'template.yaml'
 SUBS_FILE = 'subscriptions.txt'
-FORMAT_FILE = 'format.txt' # فایل جدید فرمت
+FORMAT_FILE = 'format.txt'
 OUTPUT_DIR = 'output'
 PROVIDERS_DIR = 'providers'
 README_FILE = 'README.md'
@@ -19,49 +19,86 @@ def get_filename_from_url(url):
     return os.path.splitext(filename)[0]
 
 def update_readme(output_files):
+    """
+    Updates the README.md file with a list of generated config links.
+    This version uses a more robust method to prevent content duplication.
+    """
     if not GITHUB_REPO:
-        print("Warning: GITHUB_REPOSITORY env variable not set.")
+        print("Warning: GITHUB_REPOSITORY env variable not set. Cannot generate public URLs.")
         return
+
     print(f"Updating README.md for repository: {GITHUB_REPO}")
-    links_md = "## 🔗 لینک‌های کانفیگ (Raw)\n\n"
+    
+    # 1. Build the new list of links as a markdown string
+    links_md_content = "## 🔗 لینک‌های کانفیگ (Raw)\n\n"
+    links_md_content += "برای استفاده، لینک‌های زیر را مستقیما در کلش کپی کنید.\n\n"
     for filename in sorted(output_files):
         raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{OUTPUT_DIR}/{filename}"
         title = os.path.splitext(filename)[0]
-        links_md += f"* **{title}**: `{raw_url}`\n"
-    with open(README_FILE, 'r', encoding='utf-8') as f:
-        readme_content = f.read()
-    start_marker, end_marker = "", ""
-    if start_marker not in readme_content or end_marker not in readme_content:
-        print(f"Error: Markers not found in {README_FILE}.")
+        links_md_content += f"* **{title}**: `{raw_url}`\n"
+
+    # 2. Read the entire content of the README.md file
+    try:
+        with open(README_FILE, 'r', encoding='utf-8') as f:
+            readme_content = f.read()
+    except FileNotFoundError:
+        print(f"Error: {README_FILE} not found.")
         return
-    regex = re.compile(f"{re.escape(start_marker)}.*{re.escape(end_marker)}", re.DOTALL)
-    new_readme_content = regex.sub(f"{start_marker}\n{links_md}\n{end_marker}", readme_content)
+
+    # 3. Define markers
+    start_marker = ""
+    end_marker = ""
+
+    # 4. Find the content before and after the markers
+    if start_marker not in readme_content or end_marker not in readme_content:
+        print(f"Error: Markers '{start_marker}' and '{end_marker}' not found in {README_FILE}.")
+        print("Please add them to your README.md file to indicate where links should be placed.")
+        return
+        
+    try:
+        before_part = readme_content.split(start_marker)[0]
+        after_part = readme_content.split(end_marker)[1]
+    except IndexError:
+        print("Error splitting README content. Make sure both start and end markers exist and are not misplaced.")
+        return
+
+    # 5. Reconstruct the new README content
+    new_readme_content = (
+        before_part +
+        start_marker +
+        "\n\n" +
+        links_md_content +
+        "\n" +
+        end_marker +
+        after_part
+    )
+
+    # 6. Write the new content back to the file, overwriting it completely
     with open(README_FILE, 'w', encoding='utf-8') as f:
         f.write(new_readme_content)
-    print("README.md updated successfully.")
+        
+    print("README.md updated successfully without duplication.")
 
+
+# The 'main' function remains the same as before
 def main():
     print("Starting advanced config generation process...")
     
-    # 1. Read template and format string
     try:
         with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
             template_data = yaml.safe_load(f)
-        # --- NEW: Read the format string ---
         with open(FORMAT_FILE, 'r', encoding='utf-8') as f:
             format_string = f.read().strip()
         if "[URL]" not in format_string:
             print(f"Warning: Placeholder [URL] not found in {FORMAT_FILE}. Using original URLs directly.")
-            format_string = "[URL]" # Fallback to use original URL
+            format_string = "[URL]"
     except Exception as e:
         print(f"Error reading template or format file: {e}")
         return
 
-    # 2. Ensure directories exist
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(PROVIDERS_DIR, exist_ok=True)
 
-    # 3. Read subscription links
     try:
         with open(SUBS_FILE, 'r', encoding='utf-8') as f:
             subscriptions = [line.strip() for line in f if line.strip() and not line.startswith('#')]
@@ -71,7 +108,6 @@ def main():
         
     generated_files = []
 
-    # 4. Process each subscription
     for sub_line in subscriptions:
         custom_name = None
         if ',' in sub_line:
@@ -84,18 +120,15 @@ def main():
             print(f"Warning: Could not determine a filename for URL: {original_url}. Skipping.")
             continue
         
-        # --- NEW: Create the final wrapped URL ---
-        # We use quote_plus to safely encode the original URL to be part of the new URL
         wrapped_url = format_string.replace("[URL]", quote_plus(original_url))
         
         print(f"Processing: {original_url}")
         print(f"  -> Wrapped URL: {wrapped_url}")
         
-        # Download content from the wrapped URL
         provider_filename = f"{file_name_base}.txt"
         provider_path = os.path.join(PROVIDERS_DIR, provider_filename)
         try:
-            response = requests.get(wrapped_url, timeout=30) # Increased timeout for converter services
+            response = requests.get(wrapped_url, timeout=30)
             response.raise_for_status()
             with open(provider_path, 'w', encoding='utf-8') as f:
                 f.write(response.text)
@@ -104,7 +137,6 @@ def main():
             print(f"  -> Error downloading from wrapped URL: {e}. Skipping.")
             continue
 
-        # Generate config pointing to the local provider file
         if not GITHUB_REPO:
             print("Warning: GITHUB_REPOSITORY not set. Cannot create final config.")
             continue
