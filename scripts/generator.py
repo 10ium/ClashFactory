@@ -1,88 +1,70 @@
 import os
 import re
 import yaml
-from urllib.parse import urlparse
+import requests
+from urllib.parse import urlparse, quote_plus
 
 # --- Configuration ---
 TEMPLATE_FILE = 'template.yaml'
 SUBS_FILE = 'subscriptions.txt'
+FORMAT_FILE = 'format.txt' # فایل جدید فرمت
 OUTPUT_DIR = 'output'
+PROVIDERS_DIR = 'providers'
 README_FILE = 'README.md'
-# The user/repo name will be fetched from GitHub Actions environment variables
-# For local testing, you can set it manually, e.g., 'YourUser/YourRepo'
 GITHUB_REPO = os.environ.get('GITHUB_REPOSITORY')
 
 def get_filename_from_url(url):
-    """Extracts a clean filename from a URL."""
     path = urlparse(url).path
     filename = os.path.basename(path)
-    # Remove file extension
     return os.path.splitext(filename)[0]
 
 def update_readme(output_files):
-    """Updates the README.md file with a list of generated config links."""
     if not GITHUB_REPO:
-        print("Warning: GITHUB_REPOSITORY environment variable not set. Cannot generate public URLs.")
-        print("Generated files:", output_files)
+        print("Warning: GITHUB_REPOSITORY env variable not set.")
         return
-
     print(f"Updating README.md for repository: {GITHUB_REPO}")
-
-    # Generate the markdown list of links
-    links_md = f"## 🔗 لینک‌های کانفیگ (Raw)\n\n"
-    links_md += "برای استفاده، لینک‌های زیر را مستقیما در کلش کپی کنید.\n\n"
+    links_md = "## 🔗 لینک‌های کانفیگ (Raw)\n\n"
     for filename in sorted(output_files):
-        # The output file name already includes '.yaml'
         raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{OUTPUT_DIR}/{filename}"
-        # Use filename without extension as the link title
         title = os.path.splitext(filename)[0]
         links_md += f"* **{title}**: `{raw_url}`\n"
-
-    # Read the existing README
     with open(README_FILE, 'r', encoding='utf-8') as f:
         readme_content = f.read()
-
-    # Replace the content between the markers
-    # Using regex to handle multi-line content between markers
-    start_marker = ""
-    end_marker = ""
-    
-    # Ensure markers exist in the README.md file
+    start_marker, end_marker = "", ""
     if start_marker not in readme_content or end_marker not in readme_content:
-        print(f"Error: Markers '{start_marker}' and '{end_marker}' not found in {README_FILE}.")
-        print("Please add them to your README.md file.")
+        print(f"Error: Markers not found in {README_FILE}.")
         return
-
     regex = re.compile(f"{re.escape(start_marker)}.*{re.escape(end_marker)}", re.DOTALL)
     new_readme_content = regex.sub(f"{start_marker}\n{links_md}\n{end_marker}", readme_content)
-
-    # Write the updated content back to README.md
     with open(README_FILE, 'w', encoding='utf-8') as f:
         f.write(new_readme_content)
     print("README.md updated successfully.")
 
-
 def main():
-    """Main function to generate configs."""
-    print("Starting config generation process...")
+    print("Starting advanced config generation process...")
     
-    # 1. Read the template
+    # 1. Read template and format string
     try:
         with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
             template_data = yaml.safe_load(f)
-        print(f"Successfully loaded template file: {TEMPLATE_FILE}")
+        # --- NEW: Read the format string ---
+        with open(FORMAT_FILE, 'r', encoding='utf-8') as f:
+            format_string = f.read().strip()
+        if "[URL]" not in format_string:
+            print(f"Warning: Placeholder [URL] not found in {FORMAT_FILE}. Using original URLs directly.")
+            format_string = "[URL]" # Fallback to use original URL
     except Exception as e:
-        print(f"Error reading template file {TEMPLATE_FILE}: {e}")
+        print(f"Error reading template or format file: {e}")
         return
 
-    # 2. Ensure output directory exists
+    # 2. Ensure directories exist
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(PROVIDERS_DIR, exist_ok=True)
 
     # 3. Read subscription links
     try:
         with open(SUBS_FILE, 'r', encoding='utf-8') as f:
             subscriptions = [line.strip() for line in f if line.strip() and not line.startswith('#')]
-        print(f"Found {len(subscriptions)} subscription(s) in {SUBS_FILE}")
     except FileNotFoundError:
         print(f"Error: Subscription file not found at {SUBS_FILE}")
         return
@@ -93,44 +75,50 @@ def main():
     for sub_line in subscriptions:
         custom_name = None
         if ',' in sub_line:
-            url, custom_name = [part.strip() for part in sub_line.split(',', 1)]
+            original_url, custom_name = [part.strip() for part in sub_line.split(',', 1)]
         else:
-            url = sub_line
+            original_url = sub_line
         
-        if not custom_name:
-            # Auto-detect name from URL
-            file_name_base = get_filename_from_url(url)
-            if not file_name_base:
-                print(f"Warning: Could not determine a filename for URL: {url}. Skipping.")
-                continue
-        else:
-            file_name_base = custom_name
-            
-        output_filename = f"{file_name_base}.yaml"
-        output_path = os.path.join(OUTPUT_DIR, output_filename)
+        file_name_base = custom_name if custom_name else get_filename_from_url(original_url)
+        if not file_name_base:
+            print(f"Warning: Could not determine a filename for URL: {original_url}. Skipping.")
+            continue
         
-        print(f"Processing: {url} -> {output_path}")
-
-        # Create a copy of the template data to modify
-        config_data = template_data.copy()
+        # --- NEW: Create the final wrapped URL ---
+        # We use quote_plus to safely encode the original URL to be part of the new URL
+        wrapped_url = format_string.replace("[URL]", quote_plus(original_url))
         
-        # Modify the proxy-provider URL
-        # Assumes the provider to be modified is named 'proxy'
+        print(f"Processing: {original_url}")
+        print(f"  -> Wrapped URL: {wrapped_url}")
+        
+        # Download content from the wrapped URL
+        provider_filename = f"{file_name_base}.txt"
+        provider_path = os.path.join(PROVIDERS_DIR, provider_filename)
         try:
-            config_data['proxy-providers']['proxy']['url'] = url
-        except KeyError:
-            print("Error: The template file does not have 'proxy-providers' -> 'proxy' structure.")
+            response = requests.get(wrapped_url, timeout=30) # Increased timeout for converter services
+            response.raise_for_status()
+            with open(provider_path, 'w', encoding='utf-8') as f:
+                f.write(response.text)
+            print(f"  -> Successfully saved content to {provider_path}")
+        except requests.RequestException as e:
+            print(f"  -> Error downloading from wrapped URL: {e}. Skipping.")
             continue
 
-        # Write the new config file
+        # Generate config pointing to the local provider file
+        if not GITHUB_REPO:
+            print("Warning: GITHUB_REPOSITORY not set. Cannot create final config.")
+            continue
+        config_data = yaml.safe_load(yaml.dump(template_data))
+        raw_provider_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{provider_path}"
+        config_data['proxy-providers']['proxy']['url'] = raw_provider_url
+        config_data['proxy-providers']['proxy']['path'] = f"./{provider_path}"
+        output_filename = f"{file_name_base}.yaml"
+        output_path = os.path.join(OUTPUT_DIR, output_filename)
         with open(output_path, 'w', encoding='utf-8') as f:
             yaml.dump(config_data, f, allow_unicode=True, sort_keys=False)
-            
         generated_files.append(output_filename)
+        print(f"  -> Generated final config: {output_path}\n")
 
-    print(f"\nGenerated {len(generated_files)} config files in '{OUTPUT_DIR}' directory.")
-
-    # 5. Update the README file
     if generated_files:
         update_readme(generated_files)
 
