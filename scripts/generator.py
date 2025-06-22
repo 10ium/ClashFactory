@@ -1,8 +1,8 @@
 import os
-import re
-import sys  # ماژول sys برای خروج از برنامه با پیام خطا اضافه شد
+import sys
 import yaml
 import requests
+import copy  # برای کپی عمیق و مطمئن
 from urllib.parse import urlparse, quote_plus
 
 # --- Configuration ---
@@ -22,17 +22,12 @@ def get_filename_from_url(url):
 
 
 def update_readme(output_files):
-    """
-    Updates the README.md file with a list of generated config links.
-    This version includes robust error handling to identify the exact problem.
-    """
+    """Updates the README.md file with a list of generated config links."""
     if not GITHUB_REPO:
-        # این خطا نباید رخ دهد چون در اکشن تعریف شده، اما برای اطمینان
         sys.exit("Critical Error: GITHUB_REPOSITORY environment variable is not set.")
 
     print(f"Updating README.md for repository: {GITHUB_REPO}")
 
-    # 1. Build the new list of links as a markdown string
     links_md_content = "## 🔗 لینک‌های کانفیگ آماده (Raw)\n\n"
     links_md_content += "برای استفاده، لینک‌های زیر را مستقیما در کلش کپی کنید.\n\n"
     for filename in sorted(output_files):
@@ -40,47 +35,29 @@ def update_readme(output_files):
         title = os.path.splitext(filename)[0]
         links_md_content += f"* **{title}**: `{raw_url}`\n"
 
-    # 2. Read the entire content of the README.md file
     try:
         with open(README_FILE, 'r', encoding='utf-8') as f:
             readme_content = f.read()
     except FileNotFoundError:
-        # اگر فایل ریدمی پیدا نشود، با این پیام خطا خارج شو
         sys.exit(f"CRITICAL ERROR: The '{README_FILE}' file was not found in the repository root.")
 
-    # 3. Define markers and check for their existence
     start_marker = "<!-- START_LINKS -->"
     end_marker = "<!-- END_LINKS -->"
 
     if start_marker not in readme_content or end_marker not in readme_content:
-        # اگر نشانگرها پیدا نشوند، با این پیام خطا خارج شو
-        sys.exit(
-            f"CRITICAL ERROR: Markers '{start_marker}' and '{end_marker}' not found in {README_FILE}.\n"
-            "Please ensure both markers exist in your README file."
-        )
+        sys.exit(f"CRITICAL ERROR: Markers '{start_marker}' and '{end_marker}' not found in {README_FILE}.")
 
-    # 4. Split content and reconstruct
     try:
         before_part = readme_content.split(start_marker)[0]
         after_part = readme_content.split(end_marker)[1]
     except IndexError:
-        # اگر در جدا کردن محتوا مشکلی پیش بیاید
-        sys.exit(
-            "CRITICAL ERROR: Could not split README content. "
-            "Please check if the start and end markers are correctly placed and not duplicated."
-        )
+        sys.exit("CRITICAL ERROR: Could not split README content. Check marker placement.")
 
     new_readme_content = (
-        before_part +
-        start_marker +
-        "\n\n" +
-        links_md_content +
-        "\n" +
-        end_marker +
-        after_part
+        before_part + start_marker + "\n\n" +
+        links_md_content + "\n" + end_marker + after_part
     )
 
-    # 6. Write the new content back to the file
     with open(README_FILE, 'w', encoding='utf-8') as f:
         f.write(new_readme_content)
 
@@ -88,7 +65,7 @@ def update_readme(output_files):
 
 
 def main():
-    print("Starting advanced config generation process...")
+    print("Starting advanced config generation process with corrected YAML format...")
     try:
         with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
             template_data = yaml.safe_load(f)
@@ -143,18 +120,32 @@ def main():
             continue
 
         if not GITHUB_REPO:
-            # این نباید اتفاق بیافتد اما برای اطمینان
             continue
-        config_data = yaml.safe_load(yaml.dump(template_data))
+        
+        # استفاده از copy.deepcopy برای ساخت یک کپی کامل و امن از تمپلیت
+        config_data = copy.deepcopy(template_data)
+        
         raw_provider_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{provider_path}"
         config_data['proxy-providers']['proxy']['url'] = raw_provider_url
         config_data['proxy-providers']['proxy']['path'] = f"./{provider_path}"
+        
         output_filename = f"{file_name_base}.yaml"
         output_path = os.path.join(OUTPUT_DIR, output_filename)
+        
         with open(output_path, 'w', encoding='utf-8') as f:
-            yaml.dump(config_data, f, allow_unicode=True, sort_keys=False)
+            # --- این بخش کلیدی و اصلاح شده است ---
+            # sort_keys=False: ترتیب کلیدها را حفظ می‌کند
+            # default_flow_style=False: فرمت بلاک با تورفتگی را اعمال می‌کند
+            yaml.dump(
+                config_data, 
+                f, 
+                allow_unicode=True, 
+                sort_keys=False, 
+                default_flow_style=False
+            )
+            
         generated_files.append(output_filename)
-        print(f"  -> Generated final config: {output_path}\n")
+        print(f"  -> Generated final config with correct format: {output_path}\n")
 
     if generated_files:
         update_readme(generated_files)
