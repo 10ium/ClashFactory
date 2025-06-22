@@ -1,65 +1,13 @@
 # 🏭 کارخانه کانفیگ کلش | Clash Config Factory
 
-[![ClashFactory](https://github.com/10ium/ClashFactory/actions/workflows/main.yml/badge.svg)](https://github.com/10ium/ClashFactory/actions/workflows/main.yml)
+[![Workflowname](https://github.com/10ium/ClashFactory/actions/workflows/main.yml/badge.svg)](https://github.com/10ium/ClashFactory/actions/workflows/main.yml)
 
 این مخزن به صورت خودکار، فایل‌های کانفیگ پایدار و به‌روز برای **Clash** از روی لیستی از لینک‌های اشتراک (Subscription) شما می‌سازد. هدف اصلی این پروژه، داشتن کانفیگ‌هایی است که حتی در صورت از دسترس خارج شدن لینک اشتراک اصلی، همچنان فعال باقی بمانند.
 
 ---
 
-## 🔗 لینک‌های کانفیگ آماده (Raw)
-
-لیست کانفیگ‌های تولید شده به صورت خودکار در این بخش قرار می‌گیرد. برای استفاده، کافیست لینک مورد نظر را کپی کرده و در کلاینت Clash خود وارد کنید.
-
 <!-- START_LINKS -->
-
-## 🔗 لینک‌های کانفیگ آماده (Raw)
-
-برای استفاده، لینک‌های زیر را مستقیما در کلش کپی کنید.
-
-* **Albania**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Albania.yaml`
-* **Andorra**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Andorra.yaml`
-* **Angola**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Angola.yaml`
-* **Argentina**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Argentina.yaml`
-* **Armenia**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Armenia.yaml`
-* **Austria**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Austria.yaml`
-* **Barbados**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Barbados.yaml`
-* **Belarus**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Belarus.yaml`
-* **Belgium**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Belgium.yaml`
-* **Bhutan**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Bhutan.yaml`
-* **Bolivia**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Bolivia.yaml`
-* **Canada**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Canada.yaml`
-* **CentralAfricanRepublic**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/CentralAfricanRepublic.yaml`
-* **China**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/China.yaml`
-* **Colombia**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Colombia.yaml`
-* **Cyprus**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Cyprus.yaml`
-* **DominicanRepublic**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/DominicanRepublic.yaml`
-* **Eritrea**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Eritrea.yaml`
-* **Estonia**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Estonia.yaml`
-* **Ethiopia**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Ethiopia.yaml`
-* **Finland**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Finland.yaml`
-* **France**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/France.yaml`
-* **Germany**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Germany.yaml`
-* **Greece**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Greece.yaml`
-* **Hungary**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Hungary.yaml`
-* **Iceland**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Iceland.yaml`
-* **India**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/India.yaml`
-* **Iran**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Iran.yaml`
-* **Italy**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Italy.yaml`
-* **Japan**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Japan.yaml`
-* **Laos**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Laos.yaml`
-* **Latvia**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Latvia.yaml`
-* **Lesotho**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Lesotho.yaml`
-* **Liechtenstein**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Liechtenstein.yaml`
-* **Lithuania**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Lithuania.yaml`
-* **Namibia**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Namibia.yaml`
-* **Netherlands**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Netherlands.yaml`
-* **Norway**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Norway.yaml`
-* **Romania**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Romania.yaml`
-* **Russia**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Russia.yaml`
-* **Spain**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Spain.yaml`
-* **UK**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/UK.yaml`
-* **USA**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/USA.yaml`
-
+<!-- این بخش به صورت کاملاً خودکار توسط اسکریپت مدیریت می‌شود. -->
 <!-- END_LINKS -->
 
 ---
