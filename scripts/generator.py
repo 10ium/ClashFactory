@@ -1,6 +1,7 @@
 import os
 import sys
 import requests
+import time
 from urllib.parse import urlparse, quote_plus
 
 # --- نام فایل‌ها و پوشه‌ها دقیقاً همان ساختار قبلی شماست ---
@@ -62,11 +63,10 @@ def update_readme(output_files):
 
 def main():
     """
-    تابع اصلی که از جایگزینی متن ساده برای حفظ کامل فرمت استفاده می‌کند.
+    تابع اصلی که از جایگزینی متن ساده و تلاش مجدد برای دانلود استفاده می‌کند.
     """
-    print("Starting guaranteed format-preserving generation process...")
+    print("Starting robust generation process with retry logic...")
     try:
-        # --- روش جدید: خواندن کل تمپلیت به عنوان یک رشته متنی ---
         with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
             template_content = f.read()
             
@@ -110,37 +110,51 @@ def main():
         
         provider_filename = f"{file_name_base}.txt"
         provider_path = os.path.join(PROVIDERS_DIR, provider_filename)
-        try:
-            response = requests.get(wrapped_url, timeout=30)
-            response.raise_for_status()
-            with open(provider_path, 'w', encoding='utf-8') as f:
-                f.write(response.text)
-            print(f"  -> Successfully saved content to {provider_path}")
-        except requests.RequestException as e:
-            print(f"  -> Error downloading from wrapped URL: {e}. Skipping.")
+        
+        # --- بخش کلیدی و جدید: منطق تلاش مجدد ---
+        response = None
+        max_retries = 3
+        retry_delay = 5  # 5 ثانیه تأخیر بین هر تلاش
+
+        for attempt in range(max_retries):
+            try:
+                response = requests.get(wrapped_url, timeout=45) # افزایش زمان انتظار
+                response.raise_for_status() # بررسی خطاهای HTTP مثل 4xx/5xx
+                print(f"  -> Successfully downloaded on attempt {attempt + 1}.")
+                break  # اگر موفق بود، از حلقه خارج شو
+            except requests.RequestException as e:
+                print(f"  -> Attempt {attempt + 1}/{max_retries} failed: {e}")
+                if attempt < max_retries - 1:
+                    print(f"  -> Waiting for {retry_delay} seconds before retrying...")
+                    time.sleep(retry_delay)
+                else:
+                    print(f"  -> All retries failed. Skipping this subscription.")
+
+        # اگر بعد از تمام تلاش‌ها، دانلود ناموفق بود، به لینک بعدی برو
+        if response is None or not response.ok:
             continue
+
+        # ذخیره محتوای دانلود شده
+        with open(provider_path, 'w', encoding='utf-8') as f:
+            f.write(response.text)
+        print(f"  -> Successfully saved content to {provider_path}")
 
         if not GITHUB_REPO:
             continue
 
-        # --- منطق اصلی و نهایی: جایگزینی متن ساده ---
         raw_provider_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{provider_path}"
         
-        # یک کپی از محتوای تمپلیت برای ویرایش ایجاد می‌کنیم
         modified_content = template_content
-
-        # نشانگرها را با مقادیر جدید جایگزین می‌کنیم
         modified_content = modified_content.replace("%%URL_PLACEHOLDER%%", raw_provider_url)
         modified_content = modified_content.replace("%%PATH_PLACEHOLDER%%", f"./{provider_path}")
 
-        # محتوای ویرایش شده را مستقیماً در فایل خروجی می‌نویسیم
         output_filename = f"{file_name_base}.yaml"
         output_path = os.path.join(OUTPUT_DIR, output_filename)
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(modified_content)
             
         generated_files.append(output_filename)
-        print(f"  -> Generated final config with 100% format preservation: {output_path}\n")
+        print(f"  -> Generated final config: {output_path}\n")
 
     if generated_files:
         update_readme(generated_files)
