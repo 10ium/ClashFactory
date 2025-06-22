@@ -1,5 +1,6 @@
 import os
 import re
+import sys  # ماژول sys برای خروج از برنامه با پیام خطا اضافه شد
 import yaml
 import requests
 from urllib.parse import urlparse, quote_plus
@@ -13,24 +14,26 @@ PROVIDERS_DIR = 'providers'
 README_FILE = 'README.md'
 GITHUB_REPO = os.environ.get('GITHUB_REPOSITORY')
 
+
 def get_filename_from_url(url):
     path = urlparse(url).path
     filename = os.path.basename(path)
     return os.path.splitext(filename)[0]
 
+
 def update_readme(output_files):
     """
     Updates the README.md file with a list of generated config links.
-    This version uses a more robust method to prevent content duplication.
+    This version includes robust error handling to identify the exact problem.
     """
     if not GITHUB_REPO:
-        print("Warning: GITHUB_REPOSITORY env variable not set. Cannot generate public URLs.")
-        return
+        # این خطا نباید رخ دهد چون در اکشن تعریف شده، اما برای اطمینان
+        sys.exit("Critical Error: GITHUB_REPOSITORY environment variable is not set.")
 
     print(f"Updating README.md for repository: {GITHUB_REPO}")
-    
+
     # 1. Build the new list of links as a markdown string
-    links_md_content = "## 🔗 لینک‌های کانفیگ (Raw)\n\n"
+    links_md_content = "## 🔗 لینک‌های کانفیگ آماده (Raw)\n\n"
     links_md_content += "برای استفاده، لینک‌های زیر را مستقیما در کلش کپی کنید.\n\n"
     for filename in sorted(output_files):
         raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{OUTPUT_DIR}/{filename}"
@@ -42,27 +45,31 @@ def update_readme(output_files):
         with open(README_FILE, 'r', encoding='utf-8') as f:
             readme_content = f.read()
     except FileNotFoundError:
-        print(f"Error: {README_FILE} not found.")
-        return
+        # اگر فایل ریدمی پیدا نشود، با این پیام خطا خارج شو
+        sys.exit(f"CRITICAL ERROR: The '{README_FILE}' file was not found in the repository root.")
 
-    # 3. Define markers
-    start_marker = ""
-    end_marker = ""
+    # 3. Define markers and check for their existence
+    start_marker = "<!-- START_LINKS -->"
+    end_marker = "<!-- END_LINKS -->"
 
-    # 4. Find the content before and after the markers
     if start_marker not in readme_content or end_marker not in readme_content:
-        print(f"Error: Markers '{start_marker}' and '{end_marker}' not found in {README_FILE}.")
-        print("Please add them to your README.md file to indicate where links should be placed.")
-        return
-        
+        # اگر نشانگرها پیدا نشوند، با این پیام خطا خارج شو
+        sys.exit(
+            f"CRITICAL ERROR: Markers '{start_marker}' and '{end_marker}' not found in {README_FILE}.\n"
+            "Please ensure both markers exist in your README file."
+        )
+
+    # 4. Split content and reconstruct
     try:
         before_part = readme_content.split(start_marker)[0]
         after_part = readme_content.split(end_marker)[1]
     except IndexError:
-        print("Error splitting README content. Make sure both start and end markers exist and are not misplaced.")
-        return
+        # اگر در جدا کردن محتوا مشکلی پیش بیاید
+        sys.exit(
+            "CRITICAL ERROR: Could not split README content. "
+            "Please check if the start and end markers are correctly placed and not duplicated."
+        )
 
-    # 5. Reconstruct the new README content
     new_readme_content = (
         before_part +
         start_marker +
@@ -73,17 +80,15 @@ def update_readme(output_files):
         after_part
     )
 
-    # 6. Write the new content back to the file, overwriting it completely
+    # 6. Write the new content back to the file
     with open(README_FILE, 'w', encoding='utf-8') as f:
         f.write(new_readme_content)
-        
-    print("README.md updated successfully without duplication.")
+
+    print("README.md updated successfully.")
 
 
-# The 'main' function remains the same as before
 def main():
     print("Starting advanced config generation process...")
-    
     try:
         with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
             template_data = yaml.safe_load(f)
@@ -92,9 +97,10 @@ def main():
         if "[URL]" not in format_string:
             print(f"Warning: Placeholder [URL] not found in {FORMAT_FILE}. Using original URLs directly.")
             format_string = "[URL]"
+    except FileNotFoundError as e:
+        sys.exit(f"CRITICAL ERROR: A required file is missing: {e.filename}")
     except Exception as e:
-        print(f"Error reading template or format file: {e}")
-        return
+        sys.exit(f"CRITICAL ERROR: Could not read template or format file: {e}")
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(PROVIDERS_DIR, exist_ok=True)
@@ -103,8 +109,7 @@ def main():
         with open(SUBS_FILE, 'r', encoding='utf-8') as f:
             subscriptions = [line.strip() for line in f if line.strip() and not line.startswith('#')]
     except FileNotFoundError:
-        print(f"Error: Subscription file not found at {SUBS_FILE}")
-        return
+        sys.exit(f"CRITICAL ERROR: Subscription file '{SUBS_FILE}' not found.")
         
     generated_files = []
 
@@ -138,7 +143,7 @@ def main():
             continue
 
         if not GITHUB_REPO:
-            print("Warning: GITHUB_REPOSITORY not set. Cannot create final config.")
+            # این نباید اتفاق بیافتد اما برای اطمینان
             continue
         config_data = yaml.safe_load(yaml.dump(template_data))
         raw_provider_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{provider_path}"
@@ -156,3 +161,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
