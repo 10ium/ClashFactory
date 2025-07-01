@@ -1,2 +1,2 @@
 proxies:
-  - {name: 🇺🇸 speeds_vpn1 🔓 VL-WS-N/A 🇺🇸 US 6ms, server: 172.66.132.44, port: 80, client-fingerprint: random, type: vless, uuid: 5459f68e-d914-4b31-93a3-ecdf638b7a5b, tls: false, tfo: false, skip-cert-verify: false, servername: abcd.taraneh.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: abcd.taraneh.dpdns.org}}}
+  - {name: 🇺🇸 speeds_vpn1 🔓 VL-WS-N/A 🇺🇸 US 5ms, server: 172.66.132.44, port: 80, client-fingerprint: random, type: vless, uuid: 5459f68e-d914-4b31-93a3-ecdf638b7a5b, tls: false, tfo: false, skip-cert-verify: false, servername: abcd.taraneh.dpdns.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: abcd.taraneh.dpdns.org}}}
