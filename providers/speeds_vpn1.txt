@@ -1,2 +1,2 @@
 proxies:
-  - {name: 🇺🇸 speeds_vpn1 🔓 VL-WS-N/A 🇺🇸 US 276ms, server: add.ski1plag.ir, port: 8080, client-fingerprint: chrome, type: vless, uuid: 7c9e3c1d-a360-4429-9189-e45a98de7fde, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /upload, headers: {Host: my.ski1plag.ir}}}
+  - {name: 🇺🇸 speeds_vpn1 🔓 VL-WS-N/A 🇺🇸 US 214ms, server: add.ski1plag.ir, port: 8080, client-fingerprint: chrome, type: vless, uuid: 7c9e3c1d-a360-4429-9189-e45a98de7fde, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /upload, headers: {Host: my.ski1plag.ir}}}
