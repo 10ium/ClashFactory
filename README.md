@@ -12,8 +12,9 @@
 
 برای استفاده، لینک‌های زیر را مستقیما در کلش کپی کنید.
 
-* **Iran**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Iran.yaml`
-* **UK**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/UK.yaml`
+* **10ium-HiN-VPN**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-HiN-VPN.yaml`
+* **10ium-config-fetcher**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-config-fetcher.yaml`
+* **USA**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/USA.yaml`
 * **v2ray1_ng**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/v2ray1_ng.yaml`
 
 <!-- END_LINKS -->
