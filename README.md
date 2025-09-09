@@ -13,6 +13,7 @@
 برای استفاده، لینک‌های زیر را مستقیما در کلش کپی کنید.
 
 * **10ium-HiN-VPN**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-HiN-VPN.yaml`
+* **configshubplus**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/configshubplus.yaml`
 
 <!-- END_LINKS -->
 
