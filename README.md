@@ -15,6 +15,7 @@
 * **10ium-HiN-VPN**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-HiN-VPN.yaml`
 * **10ium-config-fetcher**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-config-fetcher.yaml`
 * **Iran**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Iran.yaml`
+* **UK**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/UK.yaml`
 * **USA**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/USA.yaml`
 * **configshubplus**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/configshubplus.yaml`
 * **speeds_vpn1**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/speeds_vpn1.yaml`
