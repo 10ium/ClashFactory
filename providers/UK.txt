@@ -1,1 +1,3 @@
-proxies: ~
+proxies:
+  - {name: 🇬🇧 GB-85.210.120.237-0308, server: series-a2-me.varzesh360.co, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, tfo: false}
+  - {name: 🇬🇧 GB-85.210.55.181-0322, server: series-a2-mec.varzesh360.co, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, tfo: false}
