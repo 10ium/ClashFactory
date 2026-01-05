@@ -16,6 +16,7 @@
 * **Iran**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/Iran.yaml`
 * **UK**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/UK.yaml`
 * **USA**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/USA.yaml`
+* **v2ray1_ng**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/v2ray1_ng.yaml`
 
 <!-- END_LINKS -->
 
