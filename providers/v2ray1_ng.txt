@@ -1,2 +1,5 @@
 proxies:
-  - {name: 🇩🇪 v2ray1_ng 🔒 SS-TCP-TLS 🇩🇪 DE 148ms, server: 54.37.78.130, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d954bd6dd74a7f48, tfo: false}
+  - {name: v2ray1_ng 🔒 SS-TCP-TLS ❔ XX 156ms, server: 54.37.78.130, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d954bd6dd74a7f48, tfo: false}
+  - {name: v2ray1_ng 🔒 SS-TCP-TLS ❔ XX 156ms 2, server: 54.37.77.212, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: ef720f5b791a60f7, tfo: false}
+  - {name: v2ray1_ng 🔒 SS-TCP-TLS ❔ XX 159ms, server: 51.89.117.154, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 9bfee1388e960537, tfo: false}
+  - {name: v2ray1_ng 🔒 SS-TCP-TLS ❔ XX 210ms, server: 54.37.78.130, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d954bd6dd74a7f48, tfo: false}
