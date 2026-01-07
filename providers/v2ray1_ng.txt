@@ -1,5 +1,7 @@
 proxies:
-  - {name: v2ray1_ng 🔒 SS-TCP-TLS ❔ XX 156ms, server: 54.37.78.130, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d954bd6dd74a7f48, tfo: false}
-  - {name: v2ray1_ng 🔒 SS-TCP-TLS ❔ XX 156ms 2, server: 54.37.77.212, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: ef720f5b791a60f7, tfo: false}
-  - {name: v2ray1_ng 🔒 SS-TCP-TLS ❔ XX 159ms, server: 51.89.117.154, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 9bfee1388e960537, tfo: false}
-  - {name: v2ray1_ng 🔒 SS-TCP-TLS ❔ XX 210ms, server: 54.37.78.130, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d954bd6dd74a7f48, tfo: false}
+  - {name: v2ray1_ng 🔓 VM-TCP-N/A 🇮🇷 IR 335ms, server: 94.182.103.62, port: 22504, type: vmess, uuid: e8680dba-0db8-4833-9612-c9e4e1d8fb93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
+  - {name: 🇩🇪 v2ray1_ng 🔒 SS-TCP-TLS 🇩🇪 DE 143ms, server: 54.37.77.212, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: ef720f5b791a60f7, tfo: false}
+  - {name: 🇩🇪 v2ray1_ng 🔒 SS-TCP-TLS 🇩🇪 DE 145ms, server: 51.89.117.154, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 9bfee1388e960537, tfo: false}
+  - {name: 🇩🇪 v2ray1_ng 🔒 SS-TCP-TLS 🇩🇪 DE down, server: 135.125.219.2, port: 40266, type: ss, cipher: chacha20-ietf-poly1305, password: a10bd25b21995e56, tfo: false}
+  - {name: 🇫🇷 v2ray1_ng 🔓 VM-TCP-N/A 🇫🇷 FR 141ms, server: 217.69.5.32, port: 443, type: vmess, uuid: ec4c349c-b3c6-4cff-be63-01eaad1dc098, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
+  - {name: 🇳🇱 v2ray1_ng 🔓 VM-TCP-N/A 🇳🇱 NL 216ms, server: fast38.funfil.link, port: 31541, type: vmess, uuid: 41792324-68e1-413b-be71-f26a28213e21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, tfo: false}
