@@ -1,1 +1,4 @@
-proxies: ~
+proxies:
+  - {name: 🇫🇷 speeds_vpn1 🔒 TR-TCP-N/A 🇫🇷 FR 146ms, server: 13.36.115.104, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, tfo: false}
+  - {name: 🇫🇷 speeds_vpn1 🔒 TR-TCP-N/A 🇫🇷 FR 150ms, server: 13.36.115.104, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, tfo: false}
+  - {name: 🇺🇸 speeds_vpn1 🔒 TR-WS-N/A 🇺🇸 US 2ms, server: 104.18.32.47, port: 443, type: trojan, password: rtwerg, sni: 034.eLecTROcELlCO-CF-034.WorKeRS.DEv, skip-cert-verify: false, network: ws, ws-opts: {path: "/eyJqdW5rIjoicGNXeHBnRWlIN0FkWSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560", headers: {Host: 034.eLecTROcELlCO-CF-034.WorKeRS.DEv}}, tfo: false}
