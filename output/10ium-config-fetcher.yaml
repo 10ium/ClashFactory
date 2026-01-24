@@ -9,15 +9,15 @@ tcp-concurrent: true
 enable-process: true
 find-process-mode: strict
 ipv6: false
-log-level: debug
+log-level: info
 geo-auto-update: true
 geo-update-interval: 168
 secret: ''
 bind-address: '*'
-unified-delay: false
+unified-delay: true
 disable-keep-alive: false
-keep-alive-idle: 30
-keep-alive-interval: 30
+keep-alive-idle: 15
+keep-alive-interval: 10
 profile:
   store-selected: true
   store-fake-ip: true
@@ -25,7 +25,7 @@ dns:
   enable: true
   ipv6: false
   respect-rules: false
-  prefer-h3: false
+  prefer-h3: true
   cache-algorithm: arc
   use-system-hosts: true
   use-host: true
@@ -44,18 +44,12 @@ dns:
     - 'time.*.com'
     - 'ntp.*.com'
     - '*.ir'
+    - 'localhost.ptlogin2.qq.com'
   default-nameserver: 
-    - 8.8.8.8 
-    - 8.8.4.4 
-    - 1.0.0.1 
-    - 1.1.1.1 
-    - 9.9.9.9 
-    - 9.9.9.11 
-    - 9.9.9.10 
-    - 94.140.14.15 
-    - 94.140.15.15 
-    - 223.5.5.5 
-    - 77.88.8.8
+    - 1.1.1.1
+    - 8.8.8.8
+    - 1.2.4.8
+    - 223.5.5.5
   nameserver:
     - 'https://sky.rethinkdns.com/1:-J8AGH8C7_2-___f3_vZ3f_z-f9KagBI'
     - 'tls://1-7cpqagd7alx73px777p5766z3x77h6p7jjvaasa.max.rethinkdns.com'
@@ -63,29 +57,24 @@ dns:
     - '78.157.42.100'
     - '78.157.42.101' 
   proxy-server-nameserver: 
-    - '2606:4700:4700::1111' 
-    - '2606:4700:4700::1001' 
-    - '2001:4860:4860::8888' 
-    - '2001:4860:4860::8844' 
-    - '1.1.1.1' 
-    - '8.8.8.8' 
-    - '8.8.4.4' 
-    - '9.9.9.9' 
-    - '223.5.5.5' 
-    - '77.88.8.8' 
-    - '2400:3200::1' 
-    - '2a02:6b8::feed:0ff' 
-    - '2620:fe::fe' 
+    - https://dns.google/dns-query
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+    - quic://dns.adguard.com:784
+    - tls://1.0.0.1:853
 sniffer:
   enable: true
   force-dns-mapping: true
   parse-pure-ip: true
-  override-destination: false
+  override-destination: true
   sniff:
     HTTP:
       ports: [80, 8080, 8880, 2052, 2082, 2086, 2095]
+      override-destination: true
     TLS:
       ports: [443, 8443, 2053, 2083, 2087, 2096]
+    QUIC:
+      ports: [443, 8443]
 tun:
   enable: true
   stack: mixed
@@ -93,8 +82,10 @@ tun:
   auto-detect-interface: true
   auto-redir: true
   dns-hijack:
-    - "any:53"
-    - "tcp://any:53"
+    - any:53
+    - tcp://any:53
+  strict-route: true
+  mtu: 1400
 
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -114,19 +105,21 @@ proxy-groups:
     type: url-test
     icon: https://www.svgrepo.com/show/7876/speedometer.svg
     url: https://api.v2fly.org/checkConnection.svgz
-    interval: 600
-    timeout: 120000
-    tolerance: 500
+    interval: 300
+    timeout: 20000
+    tolerance: 50
     lazy: true
+    udp: true
     use:
       - proxy
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     icon: https://www.svgrepo.com/show/415208/backup-cloud-document.svg
     url: https://www.gstatic.com/generate_204
-    interval: 600
-    timeout: 120000
+    interval: 300
+    timeout: 20000
     lazy: true
+    udp: true
     use:
       - proxy
   - name: تلگرام 💬
@@ -176,12 +169,15 @@ proxy-providers:
     type: http
     # این دو خط توسط اسکریپت با مقادیر جدید جایگزین خواهند شد
     url: "https://raw.githubusercontent.com/10ium/ClashFactory/main/providers/10ium-config-fetcher.txt"
-    interval: 3600
+    interval: 1800
     path: "./providers/10ium-config-fetcher.txt"
     health-check:
       enable: true
-      interval: 3600
-      url: "https://www.gstatic.com/generate_204"
+      url: https://www.gstatic.com/generate_204
+      interval: 120
+      timeout: 20000
+    override:
+      udp: true
 
 rules:
   - PROCESS-NAME,Telegram.exe,تلگرام 💬 
