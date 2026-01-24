@@ -1,4 +1,4 @@
 proxies:
-  - {name: 🇭🇰 speeds_vpn1 🔒 TR-TCP-N/A 🇭🇰 HK 189ms, server: 58.152.25.236, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false, tfo: false}
-  - {name: 🇭🇰 speeds_vpn1 🔒 TR-TCP-N/A 🇭🇰 HK 202ms, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, tfo: false}
-  - {name: 🇺🇸 speeds_vpn1 🔒 TR-WS-N/A 🇺🇸 US 114ms, server: zzula.ir, port: 443, type: trojan, password: df371b78-abfe-43b0-865a-a0e640e0ca0c, sni: heavenlyblue.qzz.io, skip-cert-verify: false, network: ws, ws-opts: {path: /34.42.77.60=443, headers: {Host: heavenlyblue.qzz.io}}, tfo: false}
+  - {name: 🇭🇰 speeds_vpn1 🔒 TR-TCP-N/A 🇭🇰 HK 189ms, server: 58.152.25.236, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: 🇭🇰 speeds_vpn1 🔒 TR-TCP-N/A 🇭🇰 HK 202ms, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: 🇺🇸 speeds_vpn1 🔒 TR-WS-N/A 🇺🇸 US 114ms, server: zzula.ir, port: 443, type: trojan, password: df371b78-abfe-43b0-865a-a0e640e0ca0c, sni: heavenlyblue.qzz.io, skip-cert-verify: false, network: ws, ws-opts: {path: /34.42.77.60=443, headers: {Host: heavenlyblue.qzz.io}}, udp: true, tfo: true}
