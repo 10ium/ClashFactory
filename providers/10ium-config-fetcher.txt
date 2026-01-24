@@ -8,15 +8,15 @@ proxies:
   - {name: NimaRZ 511723, server: BimaRz.godpower.website, port: 36905, type: vmess, uuid: 21578b9a-d87a-4132-8012-621584fd69f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
   - {name: Pro 🇳🇱 | 3 اختصاصی | هلند @ParsVPN_NET, server: dl05.mizbancore.ir, port: 1333, type: vmess, uuid: 3a89910c-9f4f-47a0-83d6-1ce09a2832a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
   - {name: Telegram_@iSeqaro, server: chatgpt.com, port: 2083, type: vmess, uuid: 3a9bb1fe-adb3-46f3-b16c-6af5fdde5326, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kk1.gaming-center.ir, network: ws, ws-opts: {path: /, headers: {Host: kk1.gaming-center.ir}}, udp: true, tfo: true}
-  - {name: meliproxyy, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: f40d74b6-6092-4a32-bde1-0eec5db90de0, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: meliproxyy 2, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 7bdf5985-65ff-4f56-935a-2ff73cf4bf11, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 0b78da11-9e69-4bd6-a95f-27ca81c43d0d, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET 2, server: 15.236.111.194, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET 3, server: vip3.freedaom.top, port: 36499, type: trojan, password: VLO22Cy6XO, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET 4, server: 15.236.111.194, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: meliproxyy, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 7bdf5985-65ff-4f56-935a-2ff73cf4bf11, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: meliproxyy 2, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: f40d74b6-6092-4a32-bde1-0eec5db90de0, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET, server: vip3.freedaom.top, port: 36499, type: trojan, password: VLO22Cy6XO, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET 2, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 0b78da11-9e69-4bd6-a95f-27ca81c43d0d, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET 3, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: f40d74b6-6092-4a32-bde1-0eec5db90de0, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET 4, server: 52.59.174.18, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
   - {name: ⚡Telegram - @SOSkeyNET 5, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 7bdf5985-65ff-4f56-935a-2ff73cf4bf11, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET 6, server: 52.59.174.18, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET 7, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: f40d74b6-6092-4a32-bde1-0eec5db90de0, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET 6, server: 15.236.111.194, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET 7, server: 15.236.111.194, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
   - {name: ⚡Telegram - @SOSkeyNET 8, server: 52.59.174.18, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
   - {name: ⚡Telegram - @SOSkeyNET 9, server: 206.71.158.37, port: 35200, type: hysteria2, ports: 35200, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, udp: true, tfo: true}
   - {name: ⚡Telegram - @SOSkeyNET 10, server: 206.71.158.37, port: 36600, type: hysteria2, ports: 36600, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, udp: true, tfo: true}
