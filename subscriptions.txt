@@ -2,7 +2,7 @@ https://raw.githubusercontent.com/vpnclashfa-backup/ScrapeAndCategorize/refs/hea
 https://raw.githubusercontent.com/vpnclashfa-backup/ScrapeAndCategorize/refs/heads/main/output_base64_countries/UK.txt
 https://raw.githubusercontent.com/vpnclashfa-backup/ScrapeAndCategorize/refs/heads/main/output_base64_countries/USA.txt
 https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/mix,10ium-HiN-VPN
-https://raw.githubusercontent.com/10ium/multi-proxy-config-fetcher/refs/heads/main/configs/singbox_configs.json,10ium-config-fetcher
+https://raw.githubusercontent.com/10ium/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt,10ium-config-fetcher
 https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/speeds_vpn1
 https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/v2ray1_ng
 https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/configshubplus
