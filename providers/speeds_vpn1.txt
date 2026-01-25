@@ -1,3 +1,4 @@
 proxies:
-  - {name: speeds_vpn1 🔒 VM-- ❔ XX down, server: "", port: 0, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: 🇫🇷 speeds_vpn1 🔒 SS-TCP-TLS 🇫🇷 FR 83ms, server: 57.130.28.148, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 74918bc801d53a4b, udp: true, tfo: true}
+  - {name: 🇩🇪 speeds_vpn1 🔒 SS-TCP-TLS 🇩🇪 DE 137ms, server: 135.125.219.2, port: 40266, type: ss, cipher: chacha20-ietf-poly1305, password: a10bd25b21995e56, udp: true, tfo: true}
+  - {name: 🇩🇪 speeds_vpn1 🔒 SS-TCP-TLS 🇩🇪 DE down, server: 162.19.228.25, port: 16014, type: ss, cipher: chacha20-ietf-poly1305, password: e1052b0e6c949481, udp: true, tfo: true}
+  - {name: 🇭🇰 speeds_vpn1 🔓 TR--N/A 🇭🇰 HK 177ms, server: 58.152.53.45, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false, udp: true, tfo: true}
