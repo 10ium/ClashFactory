@@ -1,0 +1,2 @@
+proxies:
+  - {name: "🇦🇺 AU | TROJAN | @spikevpn #1", server: 130.162.197.41, port: 21051, type: trojan, password: bUlYzLSY7D, skip-cert-verify: false, udp: true, tfo: true}
