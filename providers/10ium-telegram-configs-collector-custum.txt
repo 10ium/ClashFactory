@@ -1,3 +1,3 @@
 proxies:
-  - {name: VM-TCP-NA 🇮🇷 IR-185.113.10.67:5010, server: 185.113.10.67, port: 5010, type: vmess, uuid: 47b9e192-ca6c-11f0-8e65-920006cb1803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: VM-TCP-NONE 🇮🇷 IR-79.175.129.208:41187, server: 79.175.129.208, port: 41187, type: vmess, uuid: 8f4fed06-3d69-4df7-bb39-2180e9f13432, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: VM-TCP-NA 🇮🇷 IR-94.139.183.230:1074, server: 94.139.183.230, port: 1074, type: vmess, uuid: 343bfa1a-f8c1-49e1-9bd8-e2f2360f5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: VM-TCP-NONE 🇮🇷 IR-185.141.215.101:25353, server: 185.141.215.101, port: 25353, type: vmess, uuid: c3d7f14d-d190-4af2-9701-fc590a1359e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
