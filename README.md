@@ -21,6 +21,8 @@
 * **10ium-configs-collector-ws**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-configs-collector-ws.yaml`
 * **10ium-telegram-configs-collector-custum**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-telegram-configs-collector-custum.yaml`
 * **hamedvpns-Ali-Anv1-HP71**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/hamedvpns-Ali-Anv1-HP71.yaml`
+* **itsyebekhe-PSG-custum**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/itsyebekhe-PSG-custum.yaml`
+* **speeds_vpn1**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/speeds_vpn1.yaml`
 
 <!-- END_LINKS -->
 
