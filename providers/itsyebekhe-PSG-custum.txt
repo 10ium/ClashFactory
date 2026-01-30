@@ -1,4 +1,8 @@
 proxies:
-  - {name: "IR | TROJAN | @Fr33C0nfig #1", server: iv.poloo.ir, port: 5060, type: trojan, password: oNSynuMsEs, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "IR | SS | @config_proxy #1", server: lit.gafe-marz.ir, port: 8003, type: ss, cipher: auto, password: "ۮ7}\x1aϽWm\x1ewV", udp: true, tfo: true}
+  - {name: "IR | SS | @v2ray_youtube #1", server: 37050813702269272654038283817908.international-ixp.com, port: 11312, type: ss, cipher: aes-256-gcm, password: dea23530-524f-1334-7a2a-355cfc42b7b6, udp: true, tfo: true}
+  - {name: "IR | SS | @v2ray_youtube #2", server: 38557654738726634736956357123082.international-ixp.com, port: 11309, type: ss, cipher: aes-256-gcm, password: e42e1911-82e5-088a-813f-1c2370d358d9, udp: true, tfo: true}
   - {name: "IR | VMESS | @khoneproxy #1", server: 78.47.131.39, port: 8443, type: vmess, uuid: 4d598e48-234f-4c60-fdd3-fa90e084770d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "IR | VMESS | @v2ray_free_conf #1", server: ir1.mrahvvazi.com, port: 42983, type: vmess, uuid: 30040ca2-400c-49f8-9609-f1433f20691c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "IR | VMESS | @v_2rayng0 #1", server: cDN-1.GxNeT.cAm, port: 3000, type: vmess, uuid: cf2dadc0-8532-4686-a6e0-012f76be3e1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "XX | TROJAN | @v2rayngconfig #1", server: sama.asukasimp.com, port: 2087, type: trojan, password: Zy6DXTCxtR, skip-cert-verify: false, udp: true, tfo: true}
