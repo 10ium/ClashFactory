@@ -1,8 +1,7 @@
 proxies:
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS 🇰🇿 KZ 200ms, server: kazakhstan19.clearorbitllc.com, port: 30702, type: ss, cipher: chacha20-ietf-poly1305, password: b7gwEbrLFZgBW6DrR4Xi9g, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS 🇰🇿 KZ down, server: 213.156.137.142, port: 43660, type: ss, cipher: chacha20-ietf-poly1305, password: cc27a3012d81a44c, udp: true, tfo: true}
   - {name: speeds_vpn1 🔒 VM-- ❔ XX down, server: "", port: 0, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
   - {name: speeds_vpn1 🔒 VM-- ❔ XX down 2, server: "", port: 0, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: 🇲🇾 speeds_vpn1 🔒 TR-TCP-N/A 🇲🇾 MY 250ms, server: kumao1.kkieo555.cn, port: 41274, type: trojan, password: e29f157b-4fe0-4aa6-887a-188b410a935a, sni: Telegram%F0%9F%87%A8%F0%9F%87%B3app_bedal, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: 🇳🇱 speeds_vpn1 🔒 SS-TCP-TLS 🇳🇱 NL 97ms, server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
-  - {name: 🇵🇱 speeds_vpn1 🔒 SS-TCP-TLS 🇵🇱 PL down, server: 54.36.174.140, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pvgz9pq, udp: true, tfo: true}
-  - {name: 🇺🇸 speeds_vpn1 🔒 TR-WS-N/A 🇺🇸 US 6ms, server: 104.18.32.47, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
+  - {name: 🇳🇱 speeds_vpn1 🔒 SS-TCP-TLS 🇳🇱 NL 112ms, server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
+  - {name: 🇺🇸 speeds_vpn1 🔒 TR-WS-N/A 🇺🇸 US 2ms, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
+  - {name: 🇺🇸 speeds_vpn1 🔒 TR-WS-N/A 🇺🇸 US 2ms 2, server: 104.21.40.34, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
