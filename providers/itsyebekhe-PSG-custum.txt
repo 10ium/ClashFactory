@@ -1,2 +1,3 @@
 proxies:
+  - {name: "IR | VMESS | @config_proxy #1", server: gold6.goldspeed.org, port: 40973, type: vmess, uuid: a7918501-9245-42f5-9393-f6e84bda9497, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "IR | VMESS | @khoneproxy #1", server: 78.47.131.39, port: 8443, type: vmess, uuid: 4d598e48-234f-4c60-fdd3-fa90e084770d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
