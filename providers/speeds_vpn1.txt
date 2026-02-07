@@ -1,3 +1,2 @@
 proxies:
-  - {name: 🇩🇪 speeds_vpn1 🔒 SS-TCP-TLS 🇩🇪 DE 92ms, server: 162.19.214.191, port: 59724, type: ss, cipher: chacha20-ietf-poly1305, password: e7yQKOelKM4UIJCZYLrzQX, udp: true, tfo: true}
-  - {name: 🇺🇸 speeds_vpn1 🔒 TR-WS-N/A 🇺🇸 US 2ms, server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true, tfo: true}
+  - {name: 🇫🇷 speeds_vpn1 🔒 TR-TCP-N/A 🇫🇷 FR down, server: 15.237.164.159, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
