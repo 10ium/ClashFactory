@@ -12,6 +12,7 @@
 
 برای استفاده، لینک‌های زیر را مستقیما در کلش کپی کنید.
 
+* **10ium-HiN-VPN**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-HiN-VPN.yaml`
 * **10ium-V2Hub-custum**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-V2Hub-custum.yaml`
 * **10ium-V2RayAggregator**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-V2RayAggregator.yaml`
 * **10ium-V2rayCollector**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-V2rayCollector.yaml`
@@ -20,6 +21,7 @@
 * **10ium-configs-collector-ws**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-configs-collector-ws.yaml`
 * **hamedvpns-Ali-Anv1-HP71**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/hamedvpns-Ali-Anv1-HP71.yaml`
 * **itsyebekhe-PSG-custum**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/itsyebekhe-PSG-custum.yaml`
+* **speeds_vpn1**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/speeds_vpn1.yaml`
 * **v2ray1_ng**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/v2ray1_ng.yaml`
 
 <!-- END_LINKS -->
