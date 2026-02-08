@@ -1,2 +1,2 @@
 proxies:
-  - {name: 🇫🇷 speeds_vpn1 🔒 TR-TCP-N/A 🇫🇷 FR down, server: 15.237.164.159, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: 🇺🇸 speeds_vpn1 🔒 TR-WS-N/A 🇺🇸 US 2ms, server: 104.18.32.47, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: true}
