@@ -1,70 +1,63 @@
 proxies:
-  - {name: "@@configraygan a5🌩️", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true, tfo: true}
   - {name: "@meliproxyy", server: 104.18.7.147, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true, tfo: true}
-  - {name: "@meliproxyy 2", server: 18.198.110.94, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@meliproxyy 3", server: v1.dabache.top, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: true}
-  - {name: "@meliproxyy 4", server: 46.250.254.170, port: 443, type: ss, cipher: aes-256-gcm, password: BedufgztHO3B5Kqe, udp: true, tfo: true}
-  - {name: "@meliproxyy 5", server: 62.133.63.21, port: 65262, type: ss, cipher: chacha20-ietf-poly1305, password: gaeGGcefE3NIQX1QG5OLWt, udp: true, tfo: true}
-  - {name: "@meliproxyy 6", server: 62.133.63.21, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 9TqE0Cjdw-uLS8FE8wYhbg, udp: true, tfo: true}
-  - {name: "@meliproxyy 7", server: 91.84.107.62, port: 29305, type: ss, cipher: chacha20-ietf-poly1305, password: a5870dda-48fc-43d3-bfa6-f99cf4958690, udp: true, tfo: true}
-  - {name: "@meliproxyy 8", server: 94.72.127.55, port: 80, type: ss, cipher: aes-256-gcm, password: wlJSF0fC8uqB5Gm5, udp: true, tfo: true}
-  - {name: "@meliproxyy 9", server: 62.133.60.60, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: _bmi-4goABlMsdfG1Tk_mQ, udp: true, tfo: true}
-  - {name: "@meliproxyy 10", server: 95.142.47.40, port: 62238, type: ss, cipher: chacha20-ietf-poly1305, password: 5y5cwrCR8Iun5nlMSFS8uJ, udp: true, tfo: true}
-  - {name: "@meliproxyy 11", server: 46.250.254.174, port: 443, type: ss, cipher: aes-256-gcm, password: Tqd9GppXpXB8rpc8, udp: true, tfo: true}
-  - {name: "@meliproxyy 12", server: 154.53.57.143, port: 80, type: ss, cipher: aes-256-gcm, password: uwmRUOVM5ljNAtPj, udp: true, tfo: true}
-  - {name: "@meliproxyy 13", server: 94.72.127.58, port: 443, type: ss, cipher: aes-256-gcm, password: jJHq807bQ7TM0yOh, udp: true, tfo: true}
-  - {name: "@meliproxyy 14", server: 138.124.118.94, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: xWx8FeUNL1WLLqzeMmqd6beU1KDnyBkf, udp: true, tfo: true}
-  - {name: "@meliproxyy 15", server: 149.102.132.184, port: 443, type: ss, cipher: aes-256-gcm, password: ldjmwoNqgQqqc43j, udp: true, tfo: true}
-  - {name: "@meliproxyy 16", server: 212.18.104.228, port: 56636, type: ss, cipher: chacha20-ietf-poly1305, password: WrSCFuPsVp622YThUvHxe1, udp: true, tfo: true}
-  - {name: "@meliproxyy 17", server: 38.244.137.202, port: 45380, type: ss, cipher: chacha20-ietf-poly1305, password: E6GbjW3IZ4Wokvz4VYLj4o, udp: true, tfo: true}
-  - {name: "@meliproxyy 18", server: 149.102.132.180, port: 80, type: ss, cipher: aes-256-gcm, password: ZTiO11KwZG3S7aET, udp: true, tfo: true}
-  - {name: "@meliproxyy 19", server: 149.102.132.184, port: 80, type: ss, cipher: aes-256-gcm, password: ldjmwoNqgQqqc43j, udp: true, tfo: true}
-  - {name: "@meliproxyy 20", server: 199.247.27.182, port: 443, type: ss, cipher: aes-256-gcm, password: 24osAflSxGY13B6g, udp: true, tfo: true}
-  - {name: "@meliproxyy 21", server: 149.102.132.180, port: 443, type: ss, cipher: aes-256-gcm, password: ZTiO11KwZG3S7aET, udp: true, tfo: true}
-  - {name: "@meliproxyy 22", server: 192.142.18.127, port: 443, type: ss, cipher: aes-256-gcm, password: 779b8b39-f7a0-4788-97c5-9dea443a38e7, udp: true, tfo: true}
-  - {name: "@meliproxyy 23", server: 212.18.104.228, port: 56636, type: ss, cipher: chacha20-ietf-poly1305, password: TKi9Yt7me5E9VXN3vnCcpD, udp: true, tfo: true}
-  - {name: "@meliproxyy 24", server: 89.110.70.175, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: h_30wEoiOglPmUK876-ROQ, udp: true, tfo: true}
-  - {name: "@meliproxyy 25", server: 94.72.127.55, port: 443, type: ss, cipher: aes-256-gcm, password: wlJSF0fC8uqB5Gm5, udp: true, tfo: true}
-  - {name: "@meliproxyy 26", server: 154.53.63.32, port: 443, type: ss, cipher: aes-256-gcm, password: k6ruJuwgAUxIrkHb, udp: true, tfo: true}
-  - {name: "@meliproxyy 27", server: 206.71.158.37, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@meliproxyy 2", server: v1.dabache.top, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: true}
+  - {name: "@meliproxyy 3", server: 18.198.110.94, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@meliproxyy 4", server: 149.102.132.184, port: 80, type: ss, cipher: aes-256-gcm, password: ldjmwoNqgQqqc43j, udp: true, tfo: true}
+  - {name: "@meliproxyy 5", server: 91.84.107.62, port: 29305, type: ss, cipher: chacha20-ietf-poly1305, password: a5870dda-48fc-43d3-bfa6-f99cf4958690, udp: true, tfo: true}
+  - {name: "@meliproxyy 6", server: 95.142.47.40, port: 62238, type: ss, cipher: chacha20-ietf-poly1305, password: 5y5cwrCR8Iun5nlMSFS8uJ, udp: true, tfo: true}
+  - {name: "@meliproxyy 7", server: 62.133.60.60, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: _bmi-4goABlMsdfG1Tk_mQ, udp: true, tfo: true}
+  - {name: "@meliproxyy 8", server: 62.133.63.21, port: 65262, type: ss, cipher: chacha20-ietf-poly1305, password: gaeGGcefE3NIQX1QG5OLWt, udp: true, tfo: true}
+  - {name: "@meliproxyy 9", server: 149.102.132.180, port: 80, type: ss, cipher: aes-256-gcm, password: ZTiO11KwZG3S7aET, udp: true, tfo: true}
+  - {name: "@meliproxyy 10", server: 46.250.254.170, port: 443, type: ss, cipher: aes-256-gcm, password: BedufgztHO3B5Kqe, udp: true, tfo: true}
+  - {name: "@meliproxyy 11", server: 62.133.63.21, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 9TqE0Cjdw-uLS8FE8wYhbg, udp: true, tfo: true}
+  - {name: "@meliproxyy 12", server: 192.142.18.127, port: 443, type: ss, cipher: aes-256-gcm, password: 779b8b39-f7a0-4788-97c5-9dea443a38e7, udp: true, tfo: true}
+  - {name: "@meliproxyy 13", server: 46.250.254.174, port: 443, type: ss, cipher: aes-256-gcm, password: Tqd9GppXpXB8rpc8, udp: true, tfo: true}
+  - {name: "@meliproxyy 14", server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: "@meliproxyy 15", server: 89.110.70.175, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: h_30wEoiOglPmUK876-ROQ, udp: true, tfo: true}
+  - {name: "@meliproxyy 16", server: 199.247.27.182, port: 443, type: ss, cipher: aes-256-gcm, password: 24osAflSxGY13B6g, udp: true, tfo: true}
+  - {name: "@meliproxyy 17", server: 149.102.132.180, port: 443, type: ss, cipher: aes-256-gcm, password: ZTiO11KwZG3S7aET, udp: true, tfo: true}
+  - {name: "@meliproxyy 18", server: 212.18.104.228, port: 56636, type: ss, cipher: chacha20-ietf-poly1305, password: WrSCFuPsVp622YThUvHxe1, udp: true, tfo: true}
+  - {name: "@meliproxyy 19", server: 57.129.140.88, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: k1v5g9FefdoO, udp: true, tfo: true}
+  - {name: "@meliproxyy 20", server: 149.102.132.184, port: 443, type: ss, cipher: aes-256-gcm, password: ldjmwoNqgQqqc43j, udp: true, tfo: true}
+  - {name: "@meliproxyy 21", server: 138.124.118.94, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: xWx8FeUNL1WLLqzeMmqd6beU1KDnyBkf, udp: true, tfo: true}
+  - {name: "@meliproxyy 22", server: 206.71.158.37, port: 36400, type: hysteria2, ports: 36400, password: Yet-Another-Public-Config-1, obfs: salamander, obfs-password: Yet-Another-Public-Config-1, sni: YAPC-1.afshin.ir, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: NetAccount, server: 154.38.176.7, port: 80, type: ss, cipher: aes-256-gcm, password: nKeE2ZFWVaE4DyjR, udp: true, tfo: true}
+  - {name: NetAccount 2, server: 209.126.5.209, port: 80, type: ss, cipher: aes-256-gcm, password: kEVKj1xvgzeEn8AV, udp: true, tfo: true}
   - {name: "Telegram: @wiki_tajrobe", server: de2c.buzzon.shop, port: 443, type: trojan, password: acadd87c-c8b4-4b6b-989b-64263e4d0329, sni: de2c.buzzon.shop, skip-cert-verify: false, network: ws, ws-opts: {path: /C7Uxy5S9pAi1VhW5NThds106, headers: {Host: de2c.buzzon.shop}}, udp: true, tfo: true}
-  - {name: Telegram:@config_proxy 🔥, server: 45.141.148.143, port: 5059, type: vmess, uuid: e720d2b6-80dd-4664-b64e-6cc784bce329, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bmi.ir}}, udp: true, tfo: true}
-  - {name: configraygan 10 ✅, server: node3.neovpn.store, port: 8446, type: trojan, password: 7FjbPVzZX5ZD94fAUxVycSaahvz0Jr3a, sni: node3.neovpn.store, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: configraygan 17, server: 57.129.132.223, port: 80, type: vmess, uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: google.com}}, udp: true, tfo: true}
-  - {name: configraygan 3, server: 47.250.45.234, port: 43063, type: vmess, uuid: c77f48f5-4be3-4461-b52b-49998e7b897b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true, tfo: true}
-  - {name: configraygan_10, server: 94.72.127.55, port: 80, type: ss, cipher: aes-256-gcm, password: wlJSF0fC8uqB5Gm5, udp: true, tfo: true}
-  - {name: configraygan_11, server: 209.126.5.209, port: 80, type: ss, cipher: aes-256-gcm, password: kEVKj1xvgzeEn8AV, udp: true, tfo: true}
-  - {name: configraygan_15, server: 213.156.137.142, port: 43660, type: ss, cipher: chacha20-ietf-poly1305, password: cc27a3012d81a44c, udp: true, tfo: true}
-  - {name: configraygan_21, server: 194.233.94.119, port: 80, type: ss, cipher: aes-256-gcm, password: 8t2xeemUtyui4zAv, udp: true, tfo: true}
-  - {name: configraygan_40, server: 38.54.59.16, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 6ff1423f61ffe673, udp: true, tfo: true}
-  - {name: configraygan_47, server: 13.113.192.229, port: 2595, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: configraygan_5, server: 154.38.176.7, port: 443, type: ss, cipher: aes-256-gcm, password: nKeE2ZFWVaE4DyjR, udp: true, tfo: true}
-  - {name: configraygan_6, server: 154.53.63.32, port: 443, type: ss, cipher: aes-256-gcm, password: k6ruJuwgAUxIrkHb, udp: true, tfo: true}
-  - {name: configraygan_7, server: 66.94.125.178, port: 443, type: ss, cipher: aes-256-gcm, password: 14CLBaFBqwqxBJy6, udp: true, tfo: true}
-  - {name: configraygan_8, server: 154.53.57.143, port: 443, type: ss, cipher: aes-256-gcm, password: uwmRUOVM5ljNAtPj, udp: true, tfo: true}
-  - {name: configraygan_9, server: 46.250.234.115, port: 80, type: ss, cipher: aes-256-gcm, password: jMogNXXk08l2JK0N, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET, server: 160.16.117.182, port: 193, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET 2, server: 146.70.90.194, port: 57452, type: trojan, password: t1k169n5zmvvwn96r9ft, sni: www.vk.com, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET 3, server: 15.188.96.190, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET 4, server: 18.194.65.60, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET👈 آموزش اتصال 👉⚡️Telegram - @SOSkeyNET عضو شو, server: 18.194.65.60, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @configraygan, server: 162.159.33.95, port: 80, type: trojan, password: 54aa90f6-46f5-417d-82ff-fe1197cf88fd, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true, tfo: true}
-  - {name: ⚡️Telegram - @SOSkeyNET, server: 104.19.174.68, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/NASNET/cdn?ed=2560", headers: {Host: nasnet-571299667.rahavard365.co}}, udp: true, tfo: true}
-  - {name: ✅@AR14N24b, server: rrrrrrr5.191262.xyz, port: 443, type: trojan, password: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990, sni: rrrrrrr5.191262.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /cSIyXrtyqeOFepMpfNkCk8, headers: {Host: rrrrrrr5.191262.xyz}}, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 2, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: b4fed904-61ad-4a31-9fb0-8d85ccbcb660, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 3, server: 18.194.65.60, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 4, server: ttt6.006660666.xyz, port: 443, type: trojan, password: 795ef99b-3260-4d18-ac98-5130bba9f168, sni: ttt6.006660666.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /OkVaxoknnGWI7hLRpJ1, headers: {Host: ttt6.006660666.xyz}}, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 5, server: 18.194.65.60, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 6, server: 15.188.96.190, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 7, server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 8, server: 104.18.32.37, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 9, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 10, server: 153.121.39.240, port: 3901, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 11, server: 15.188.96.190, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 12, server: 146.70.90.194, port: 57452, type: trojan, password: t1k169n5zmvvwn96r9ft, sni: www.vk.com, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 13, server: www.gossipglove.com, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 14, server: uu.852224.xyz, port: 443, type: trojan, password: b020865b-7404-4894-ba65-a7414b10cda3, sni: uu.852224.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /iEIlQmeiFdOPjqSc7fzeJr, headers: {Host: uu.852224.xyz}}, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 15, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 16, server: node3.neovpn.store, port: 8446, type: trojan, password: 7FjbPVzZX5ZD94fAUxVycSaahvz0Jr3a, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 17, server: 160.16.117.182, port: 193, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram, server: 198.41.193.181, port: 80, type: vmess, uuid: 92791642-1471-4b93-980a-81030985f3ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 127.0.0.1.mrarsha.kомната0.房間騎自行車的人.bелосипедисты.bikeriders.wonkacapitano.buzz.}}, udp: true, tfo: true}
+  - {name: "| @configraygan‎🇩🇪¹�⁹』", server: 141.95.126.134, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jameko.org, network: ws, ws-opts: {path: linkvws, headers: {Host: jamekk.org}}, udp: true, tfo: true}
+  - {name: "| @configraygan‎🇩🇪¹�⁹』 2", server: 57.129.25.20, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 57.129.25.20, network: ws, ws-opts: {path: linkvws, headers: {Host: 57.129.25.20}}, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪³²』", server: 62.133.63.21, port: 65262, type: ss, cipher: chacha20-ietf-poly1305, password: gaeGGcefE3NIQX1QG5OLWt, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪¹²⁴』", server: 154.38.176.7, port: 443, type: ss, cipher: aes-256-gcm, password: nKeE2ZFWVaE4DyjR, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪¹²⁵』", server: 154.53.63.32, port: 443, type: ss, cipher: aes-256-gcm, password: k6ruJuwgAUxIrkHb, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪¹²⁶』", server: 66.94.125.178, port: 443, type: ss, cipher: aes-256-gcm, password: 14CLBaFBqwqxBJy6, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪¹²⁷』", server: 154.53.57.143, port: 443, type: ss, cipher: aes-256-gcm, password: uwmRUOVM5ljNAtPj, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪¹²⁸』", server: 46.250.234.115, port: 80, type: ss, cipher: aes-256-gcm, password: jMogNXXk08l2JK0N, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪¹²⁹』", server: 94.72.127.55, port: 80, type: ss, cipher: aes-256-gcm, password: wlJSF0fC8uqB5Gm5, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪¹¹⁴』", server: 194.233.94.119, port: 80, type: ss, cipher: aes-256-gcm, password: 8t2xeemUtyui4zAv, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪¹⁰⁴』", server: 209.126.5.209, port: 80, type: ss, cipher: aes-256-gcm, password: kEVKj1xvgzeEn8AV, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪¹⁰⁸』", server: 213.156.137.142, port: 43660, type: ss, cipher: chacha20-ietf-poly1305, password: cc27a3012d81a44c, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪⁴⁶』", server: 62.146.172.130, port: 80, type: ss, cipher: aes-256-gcm, password: LYXiIUJ0FutnTzBG, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪⁵²』", server: 194.233.94.119, port: 80, type: ss, cipher: aes-256-gcm, password: 8t2xeemUtyui4zAv, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪⁶⁰』", server: 213.156.137.142, port: 43659, type: ss, cipher: chacha20-ietf-poly1305, password: a8201bbd740420bb, udp: true, tfo: true}
+  - {name: "| @configraygan『🇩🇪⁸³』", server: 13.113.192.229, port: 2595, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "| @configraygan『🇫🇷¹³²』", server: 57.129.140.88, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: k1v5g9FefdoO, udp: true, tfo: true}
+  - {name: "| @configraygan『🇫🇷¹⁸⁹』", server: 13.36.104.238, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "| @configraygan『🇮🇷¹⁸⁷』", server: 78.38.246.150, port: 8446, type: ss, cipher: chacha20-poly1305, password: 6e3e43f4-12b7-42f1-8b93-41a152d5612d, udp: true, tfo: true}
+  - {name: "| @configraygan『🇳🇱¹⁷⁰』", server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
+  - {name: "| @configraygan『🇳🇱¹⁸⁴』", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET, server: 13.36.58.242, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET 2, server: 13.36.104.238, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET 3, server: 13.36.58.242, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET👈 آموزش اتصال 👉⚡️Telegram - @SOSkeyNET عضو شو, server: 13.113.192.229, port: 2595, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ✅@AR14N24b, server: 162.159.36.115, port: 443, type: trojan, password: ey0YnM2wKw, sni: www-holand-cc-2.ammirkbbir.site., skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 2, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 187db574-57ef-4e54-9d15-a018221b62f7, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 3, server: 13.36.58.242, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 4, server: 104.16.223.200, port: 443, type: trojan, password: 11fd7d06-a1fb-4a47-a490-e0a62d1e1c0e, sni: young-water-da76.shbanysrwsh.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /afrcloud4.mmv.kr/156.244.1.250:8443, headers: {Host: young-water-da76.shbanysrwsh.workers.dev}}, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 5, server: 13.113.192.229, port: 2595, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 6, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 5f6ded93-4ab8-4a99-9c84-b19b9993f27c, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 7, server: 188.114.96.3, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 8, server: 172.67.180.92, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 9, server: 13.36.58.242, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 10, server: 13.36.104.238, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 11, server: www.gossipglove.com, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 12, server: 15.188.96.190, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
