@@ -1,6 +1,6 @@
 proxies:
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 136ms, server: 5.188.4.103, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: a7c205642b302c20, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 146ms, server: 5.188.4.103, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: a7c205642b302c20, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 151ms, server: 62.133.63.21, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: SC32YrElPjQxnvA5QYGgZQ, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 137ms, server: 62.133.63.21, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: SC32YrElPjQxnvA5QYGgZQ, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down, server: 5.188.4.103, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: a7c205642b302c20, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 2, server: 5.188.4.103, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: a7c205642b302c20, udp: true, tfo: true}
   - {name: speeds_vpn1 🔒 TR-WS-N/A ❔ XX 2ms, server: 104.21.44.213, port: 443, type: trojan, password: 5cccb4da-8aee-4b01-be84-2056265e52dc, sni: mMMhU.HUangSHANG.onlIne, skip-cert-verify: false, network: ws, ws-opts: {path: /hV829BTVzg35A6ueyyZnWd, headers: {Host: mMMhU.HUangSHANG.onlIne}}, udp: true, tfo: true}
   - {name: speeds_vpn1 🔒 VM-- ❔ XX down, server: "", port: 0, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
