@@ -1,219 +1,219 @@
 proxies:
-  - {name: "@vpnclashfa - 111", server: bisque.qzz.io, port: 443, type: trojan, password: e86364fb-a5e3-42c3-b7fa-6ce8097fe19f, sni: bisque.qzz.io, skip-cert-verify: false, network: ws, ws-opts: {path: /66.135.4.222:8443, headers: {Host: bisque.qzz.io}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 113\n", server: 91.107.171.113, port: 443, type: vmess, uuid: 6f514878-9513-4393-a68f-1225de4960a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 115", server: bestcdn0.868863.xyz, port: 2087, type: trojan, password: f0defe70-4c27-4d66-bada-0240e4f49880, sni: 17710527844024.682637.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /ahyrtuyjykl, headers: {Host: 17710527844024.682637.xyz}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 118", server: 141.95.104.30, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 59fa5541d1d9ccce, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 119", server: 95.142.47.40, port: 62238, type: ss, cipher: chacha20-ietf-poly1305, password: 5y5cwrCR8Iun5nlMSFS8uJ, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 1\n", server: 43.100.32.6, port: 443, type: vmess, uuid: 8c5d150c-b046-4440-8230-e84506a065a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: n1747624267.4u9ma.icu, network: ws, ws-opts: {path: /, headers: {Host: n1747624267.4u9ma.icu}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 105", server: 45.12.109.195, port: 9443, type: trojan, password: c2aac3ed49d245fa82d19b8ca425e8aa, sni: apple.com, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 108", server: 38.244.137.202, port: 45380, type: ss, cipher: chacha20-ietf-poly1305, password: 43fXf1uMKbIKkxoNYGQMtt, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 110", server: ivory.qzz.io, port: 443, type: trojan, password: e2e3b171-33a8-4c8f-9e5f-ae6e92299e40, sni: ivory.qzz.io, skip-cert-verify: false, network: ws, ws-opts: {path: /46.232.122.240:8000, headers: {Host: ivory.qzz.io}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 111", server: 154.205.145.37, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 47509ba3679b9df9, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 111 2", server: bisque.qzz.io, port: 443, type: trojan, password: e86364fb-a5e3-42c3-b7fa-6ce8097fe19f, sni: bisque.qzz.io, skip-cert-verify: false, network: ws, ws-opts: {path: /66.135.4.222:8443, headers: {Host: bisque.qzz.io}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 112", server: 141.95.104.145, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 4f032d993dfec318, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 114", server: 162.159.36.115, port: 443, type: trojan, password: ey0YnM2wKw, sni: www-holand-cc-2.ammirkbbir.site., skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 114\n", server: 91.231.182.193, port: 24424, type: vmess, uuid: 652e8ec4-b683-4770-baa6-c71022e06d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 118", server: ufbji.zippydeal.xyz, port: 5743, type: trojan, password: fg20mtCFHy, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "@vpnclashfa - 122", server: 104.18.32.37, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 126", server: admin.c4.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 69MUii7VDwMqh7Hz, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 127", server: 94.131.104.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 6VAcll4P8xPTUVVtHeST3onRmLoVIBSU, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 129", server: 104.21.40.34, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 132", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 135", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 136\n", server: 104.19.173.68, port: 8080, type: vmess, uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /NASNET/cdn, headers: {Host: nasnet-571299667.rahavard365.co}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 137\n", server: 104.19.32.0, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: xmivideo.cfd, network: ws, ws-opts: {path: /linkws, headers: {Host: xmivideo.cfd}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 124", server: 104.18.32.47, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 124\n", server: 104.16.198.210, port: 80, type: vmess, uuid: a39f5fd3-e0b6-4ff0-99ee-de0a95aa1201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: heQwH.olielielie.store, network: ws, ws-opts: {path: "/vmess#t-me-DarkVPNpro?ed=2048", headers: {Host: heQwH.olielielie.store.}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 127", server: 104.18.32.47, port: 443, type: trojan, password: humanity, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 131", server: 38.54.59.16, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 6ff1423f61ffe673, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 132", server: 54.37.77.201, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 70fa4568f0fce450, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 133", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 136", server: 194.233.73.51, port: 14453, type: ss, cipher: chacha20-ietf-poly1305, password: 764a4d8c1c76eb50, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 136 2", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 139", server: 154.26.156.99, port: 47386, type: ss, cipher: chacha20-ietf-poly1305, password: 78322e4b934870b6, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 139 2", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: true}
   - {name: "@vpnclashfa - 14", server: bbgtr.7777198.xyz, port: 443, type: trojan, password: 4115f84d-3b03-4b03-babf-21b36b2f9c03, sni: bBGtR.7777198.XYz, skip-cert-verify: false, network: ws, ws-opts: {path: /r862SIwqItkD5XgXAL, headers: {Host: bBGtR.7777198.XYz}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 141", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 141", server: 154.26.156.99, port: 47388, type: ss, cipher: chacha20-ietf-poly1305, password: 78322e4b934870b6, udp: true, tfo: true}
   - {name: "@vpnclashfa - 142\n", server: 104.19.46.233, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 143", server: 45.144.31.24, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA, udp: true, tfo: true}
   - {name: "@vpnclashfa - 144", server: 31.210.50.196, port: 12422, type: ss, cipher: chacha20-ietf-poly1305, password: 7W3VPCTJ9QevQ2300DGR65, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 144 2", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 145", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 148", server: 51.89.118.58, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 7a63df1a001759bf, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 147\n", server: 104.19.47.226, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai2", headers: {Host: oiictw.yydsii.com}}, udp: true, tfo: true}
   - {name: "@vpnclashfa - 149", server: Fl2.saas-clouding.ir, port: 2049, type: ss, cipher: chacha20-ietf-poly1305, password: 7a9633f8285a12c5abfd, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 150", server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
   - {name: "@vpnclashfa - 150\n", server: 104.19.47.36, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 158", server: 141.95.109.160, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 823cdb94a457faee, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 162", server: 163.171.181.49, port: 42934, type: ss, cipher: chacha20-ietf-poly1305, password: 877c3b069c335ffc, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 164", server: 163.171.181.49, port: 42936, type: ss, cipher: chacha20-ietf-poly1305, password: 877c3b069c335ffc, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 151\n", server: 104.19.47.79, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 153", server: 194.233.73.51, port: 48803, type: ss, cipher: chacha20-ietf-poly1305, password: 7afa39016d5a409c, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 154", server: 194.233.73.51, port: 48804, type: ss, cipher: chacha20-ietf-poly1305, password: 7afa39016d5a409c, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 161", server: 57.129.89.142, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 865bc80919a484a5, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 162", server: www.creationlong.org, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 162\n", server: 104.25.209.8, port: 80, type: vmess, uuid: a39f5fd3-e0b6-4ff0-99ee-de0a95aa1201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: heQwH.olielielie.store, network: ws, ws-opts: {path: "/vmess#t-me-DarkVPNpro?ed=2048", headers: {Host: heQwH.olielielie.store.}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 163\n", server: 104.25.214.176, port: 80, type: vmess, uuid: a5c42e02-9a2b-4e00-870f-c14b58aeffb1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: 3049c.olielielie.store, network: ws, ws-opts: {path: "/vmess#t-me-DarkVPNpro?ed=2048", headers: {Host: 3049c.olielielie.store.}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 164\n", server: 104.25.228.174, port: 80, type: vmess, uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl2.升級.3скалация.mальчикицапля.男孩與蒼鷺.wonkacapitano.buzz.}}, udp: true, tfo: true}
   - {name: "@vpnclashfa - 165", server: 163.171.181.49, port: 42933, type: ss, cipher: chacha20-ietf-poly1305, password: 877c3b069c335ffc, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 166", server: 45.86.229.239, port: 24894, type: ss, cipher: chacha20-ietf-poly1305, password: 8FpgLXFqzGDkvI1c3FaimZ, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 169\n", server: 107.172.82.41, port: 11814, type: vmess, uuid: 4f34f242-b5a7-48c1-c258-f019be3bf9c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 170", server: 141.95.101.202, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 8e3c75581ade471d, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 172", server: 205.185.115.223, port: 19258, type: trojan, password: iWnFtzMiac, sni: cloudflare.com, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 173", server: 157.185.173.60, port: 18424, type: ss, cipher: chacha20-ietf-poly1305, password: 97fe6b07cbfaf7e7, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 179", server: staging.lastilhame.monster, port: 49917, type: ss, cipher: chacha20-ietf-poly1305, password: 9Hq5wADyzgGcoPT5ji6wGMNtxyzZUnjLytQ9nrcGHMqi5wKjtuwyeb6xFytgoFezeP9gdaHiLJdYB8R8dUVmGvZ4yFNeo4N9, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 176", server: 157.185.173.60, port: 18427, type: ss, cipher: chacha20-ietf-poly1305, password: 97fe6b07cbfaf7e7, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 177", server: de4.nnvpn.io, port: 443, type: trojan, password: mk7J60Z9VYojAL44EPfaUEfsdCt8KFKo, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 178", server: ee2.nnvpn.io, port: 443, type: trojan, password: mk7J60Z9VYojAL44EPfaUEfsdCt8KFKo, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 178\n", server: 139.59.142.237, port: 2082, type: vmess, uuid: ba80b11b-2578-43c4-929d-89095af066ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "@vpnclashfa - 180", server: 83.147.216.70, port: 64519, type: ss, cipher: chacha20-ietf-poly1305, password: 9z4XoS0TfzxNsSqBVAWt7N, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 180 2", server: ru2.nnvpn.io, port: 443, type: trojan, password: mk7J60Z9VYojAL44EPfaUEfsdCt8KFKo, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 180\n", server: 140.248.128.186, port: 80, type: vmess, uuid: 29b4c1d3-acce-47ca-92cb-ea69a8bac373, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: echopress-bot.global.ssl.fastly.net}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 182", server: 163.171.213.47, port: 46281, type: ss, cipher: chacha20-ietf-poly1305, password: 08e4090bc46fd8a6, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 185", server: x7-sweden-amazon-v2-ku4u8.devefun.org, port: 1935, type: trojan, password: ptM0AjehKC, sni: x7-sweden-amazon-v2-ku4u8.devefun.org, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 194", server: 38.54.59.38, port: 11205, type: ss, cipher: chacha20-ietf-poly1305, password: 0cdde695873565ee, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 181", server: 57.129.94.79, port: 11208, type: ss, cipher: chacha20-ietf-poly1305, password: 0047036c45596605, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 181\n", server: 141.101.115.19, port: 80, type: vmess, uuid: 2ac4e269-1576-4f41-8c0d-6242e3c5fd8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 1270.0.1.dl3.烏克爾拯救聖誕老人電影.yркельпасаетcанту.фильм.urkel.烏克爾救援.wonkacapitano.buzz.}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 183", server: 38.54.82.205, port: 27877, type: trojan, password: pUF+zmIw0QuRESBPLofx7eOj6Xc49, sni: www.metaphysicalmagnet.click, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 184", server: free-de-2.undef.network, port: 443, type: trojan, password: pYIoKUPGpWeTYXEx3HjR7s97B, sni: free-de-2.undef.network, skip-cert-verify: false, network: ws, ws-opts: {path: /f2fc2a1f, headers: {Host: free-de-2.undef.network}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 187", server: 37.235.49.209, port: 28099, type: trojan, password: qmBSKnAl6LYi9%3Dz23Rs.Z, sni: celestialcorset.crystalhamster.click, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "@vpnclashfa - 194\n", server: 147.182.215.158, port: 2082, type: vmess, uuid: 9211eba6-22f8-4a44-8aba-b3e15d7edfbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 195", server: 38.54.59.38, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 0cdde695873565ee, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 195 2", server: 13.37.147.199, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 197", server: 38.54.59.38, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: 0cdde695873565ee, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 197 2", server: 13.37.8.71, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "@vpnclashfa - 199", server: 45.14.245.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 200", server: 51.89.119.213, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 15b0573830081d01, udp: true, tfo: true}
   - {name: "@vpnclashfa - 204", server: 15.188.129.120, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 208", server: 15.188.241.30, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 209", server: 15.188.96.190, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 21", server: 630hk99.ok365.cyou, port: 443, type: trojan, password: 54f4dd9a-6a6c-4c84-b328-4a51da70793e, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 210", server: 15.224.3.139, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 214\n", server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 219", server: 51.75.168.50, port: 13031, type: ss, cipher: chacha20-ietf-poly1305, password: 25f8159be6c408fe, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 219 2", server: 18.195.108.52, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 22\n", server: 45.15.185.17, port: 80, type: vmess, uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: 45.15.185.17}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 222", server: 157.185.173.60, port: 46727, type: ss, cipher: chacha20-ietf-poly1305, password: 29acd960ab8e3408, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 225\n", server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 226", server: media.mothyleela.cfd, port: 40521, type: ss, cipher: chacha20-ietf-poly1305, password: 2WkRGh6tAv8UmsHh4i3F6zosj2dzA6sCzXbwq4TdXteztMfyA5aZcLy5jY5Z7FZ3QQMcTVwM7TvibdvzYircC7iDZafp2U6z, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 228", server: 185.163.1.90, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 2b195d916cb84007, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 237", server: 141.95.105.28, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 37ef4f029f1ac0ac, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 24", server: 172.64.80.1, port: 443, type: trojan, password: 5cccb4da-8aee-4b01-be84-2056265e52dc, sni: nMk.288288.sHOP, skip-cert-verify: false, network: ws, ws-opts: {path: /hV829BTVzg35A6ueyyZnWd, headers: {Host: nMk.288288.sHOP}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 240", server: 45.139.24.24, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 240 2", server: 35.157.55.39, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 206", server: 46.246.97.195, port: 23931, type: ss, cipher: chacha20-ietf-poly1305, password: 1XSHFjXMLDedtMLJLGDIe8, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 206 2", server: 15.188.162.81, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 212", server: 194.59.183.1, port: 21318, type: ss, cipher: chacha20-ietf-poly1305, password: 1wCx73jegQqB0vxKdWONJH, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 213", server: 74.177.162.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1xO2cqPazqjGfCfd, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 216", server: freakconfig13.felafel.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1xO2cqPazqjGfCfd, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 217", server: 94.72.98.126, port: 26820, type: ss, cipher: chacha20-ietf-poly1305, password: 223835c4fcae4359, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 218", server: 18.194.65.60, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 22", server: one.cf.cdn.hyli.xyz, port: 443, type: trojan, password: 5a2c16f9, sni: snippets.kkii.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: snippets.kkii.eu.org}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 231\n", server: 170.64.164.66, port: 2082, type: vmess, uuid: 70fab550-5682-4d5a-ab16-3477cd5ba76e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 236", server: 3.72.188.159, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 236\n", server: 172.64.149.182, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-5712964102.sharghdaily.co}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 237", server: 3.75.40.40, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 239", server: 3.77.68.129, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "@vpnclashfa - 241", server: 45.139.24.24, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 243", server: 185.39.204.161, port: 33563, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q7U16yGY0Jx1yGQe9Xtzp, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 243 2", server: 35.180.72.19, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 243\n", server: 172.67.185.142, port: 80, type: vmess, uuid: a39f5fd3-e0b6-4ff0-99ee-de0a95aa1201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: heQwH.olielielie.store, network: ws, ws-opts: {path: "/vmess#t-me-DarkVPNpro?ed=2048", headers: {Host: heQwH.olielielie.store.}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 25", server: 54.95.118.21, port: 3373, type: trojan, password: 5fb072e0ddd631cf66cf752b09210480, sni: www.nintendogames.net, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 260", server: 45.95.232.236, port: 4248, type: ss, cipher: chacha20-ietf-poly1305, password: xTg583yo1Qd4fPK3YgU0OR, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 262", server: 89.221.225.15, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 266\n", server: 188.114.98.0, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN", headers: {Host: nasnet-162191099.sharghdaily.co}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 245", server: 35.181.136.255, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 247", server: 38.54.97.247, port: 28026, type: ss, cipher: chacha20-ietf-poly1305, password: 3bb08205cb6c8af0, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 247\n", server: 172.67.204.84, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 248", server: 35.181.179.223, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 263\n", server: 188.114.96.3, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jahfkjha.cfd, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 264", server: 136.244.100.113, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: yODLXVLz2FWNTFeSSng3Fm, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 266", server: 63.179.9.91, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "@vpnclashfa - 267", server: 62.60.233.226, port: 62763, type: ss, cipher: chacha20-ietf-poly1305, password: yRdxvK32gcKq8xxNguwU99, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 267 2", server: 63.180.39.147, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 268", server: 95.164.123.39, port: 32821, type: ss, cipher: chacha20-ietf-poly1305, password: yXQLzA62V0b4swsrwFi5bL, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 269", server: 63.181.22.229, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 270", server: 81.90.29.126, port: 53672, type: ss, cipher: chacha20-ietf-poly1305, password: yprgZbB7xDL4PSvE4wJU4m, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 273\n", server: 193.203.203.99, port: 80, type: vmess, uuid: 59db4f71-1328-56be-aa15-51261e8536e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: ca2.vmess.site, network: ws, ws-opts: {path: "/vmess#t-me-DarkVPNpro?ed=2048", headers: {Host: zula.ir}}, udp: true, tfo: true}
   - {name: "@vpnclashfa - 279", server: 13.38.185.255, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 280", server: 147.78.0.182, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 282", server: 13.39.0.222, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 285", server: 185.255.123.110, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 28", server: 104.16.159.6, port: 443, type: trojan, password: 669d0ac7b5b64ebbb1abb75d5d540a5c, sni: bangladeshipatri.com, skip-cert-verify: false, network: ws, ws-opts: {path: /6b777a91, headers: {Host: bangladeshipatri.com}}, udp: true, tfo: true}
   - {name: "@vpnclashfa - 285\n", server: 20.193.153.19, port: 15834, type: vmess, uuid: 39a8c374-76b1-4e90-ab85-85cd9a42ded2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 293", server: 15.236.182.0, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 294", server: 15.236.88.17, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 297", server: 138.186.142.81, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 298\n", server: 23.227.39.129, port: 80, type: vmess, uuid: a39f5fd3-e0b6-4ff0-99ee-de0a95aa1201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: heQwH.olielielie.store, network: ws, ws-opts: {path: "/vmess#t-me-DarkVPNpro?ed=2048", headers: {Host: heQwH.olielielie.store.}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 30", server: hl-freedom-0.undef.network, port: 443, type: trojan, password: 76yTlnTIsjCTlmqnUJ5Tzc1rM, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 302", server: 18.195.91.205, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 306", server: 18.199.2.96, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 307", server: 38.54.59.180, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 310", server: 3.126.233.247, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 288", server: 37.235.56.69, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 289", server: 15.188.96.190, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 293\n", server: 213.176.1.48, port: 1000, type: vmess, uuid: 52cc4cb0-f923-4965-9615-6380b04c3f4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 297\n", server: 23.227.38.13, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 303", server: 176.123.1.175, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 304\n", server: 38.54.98.110, port: 20522, type: vmess, uuid: cfb08f31-bca2-4f78-a8fa-2784a83ab1f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /telegram_@sswia}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 305", server: 188.214.157.30, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 306", server: 37.143.130.203, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 306 2", server: 18.199.2.96, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 309", server: 3.126.233.247, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 31", server: hl-freedom-0.undef.network, port: 443, type: trojan, password: 76yTlnTIsjCTlmqnUJ5Tzc1rM, sni: hl-freedom-0.undef.network, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "@vpnclashfa - 313", server: 62.133.63.230, port: 1580, type: ss, cipher: chacha20-ietf-poly1305, password: BTPmFf7EttoUTOFAL2r69C, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 320", server: 93.183.94.163, port: 32609, type: ss, cipher: chacha20-ietf-poly1305, password: Cztwy34B07eqN6H4YoPGXZ, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 323", server: 195.66.27.81, port: 11746, type: ss, cipher: chacha20-ietf-poly1305, password: DaiJfYM6WoCXmBbF69QFR0, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 324\n", server: time.ir, port: 443, type: vmess, uuid: last-update-time, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: time.ir, network: ws, ws-opts: {path: /, headers: {Host: time.ir}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 325\n", server: tr1-smart.adelping.com, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 326\n", server: tr1-smart.adelping.com, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tr1-smart.adelping.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 328", server: 35.181.228.222, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 330", server: 35.181.88.119, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 315", server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 318", server: series-a2-me.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 319\n", server: tgju.org, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-571296497.iranpress.co}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 322", server: 85.208.139.158, port: 25607, type: ss, cipher: chacha20-ietf-poly1305, password: DXQocbpII6cMgNuMK5xClQ, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 325", server: 62.133.63.167, port: 61377, type: ss, cipher: chacha20-ietf-poly1305, password: E12yZBPC7y8SnmkSYjf0Wl, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 325 2", server: 35.181.136.255, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 326", server: 38.244.137.202, port: 45380, type: ss, cipher: chacha20-ietf-poly1305, password: E6GbjW3IZ4Wokvz4VYLj4o, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 327", server: 38.244.137.202, port: 45380, type: ss, cipher: chacha20-ietf-poly1305, password: E6GbjW3IZ4Wokvz4VYLj4o, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 33", server: hl-freedom-0.undef.network, port: 443, type: trojan, password: 76yTlnTIsjCTlmqnUJ5Tzc1rM, sni: hl-freedom-0.undef.network, skip-cert-verify: false, network: ws, ws-opts: {path: "%252Ff2fc2a1f", headers: {Host: hl-freedom-0.undef.network}}, udp: true, tfo: true}
   - {name: "@vpnclashfa - 331", server: 208.67.105.196, port: 42029, type: ss, cipher: chacha20-ietf-poly1305, password: Fzf5vaXFs7oCY3Xb33aZ945xkhvFt2rrxdRBY9D3dQecNQKEXysBXb2eVPzDVb9iqM3iBhwJHEi5eWhzAXJXEP2vUwWCpZXD, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 333", server: 37.120.192.158, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 334", server: 37.120.192.158, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true, tfo: true}
   - {name: "@vpnclashfa - 335", server: 37.120.192.158, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 336", server: 107.181.151.241, port: 49917, type: ss, cipher: chacha20-ietf-poly1305, password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 337", server: 52.208.32.156, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 346\n", server: www.speedtest.net, port: 80, type: vmess, uuid: 040a6bc6-82e9-4850-af39-4eb3b5007874, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mail.HamsterBOT.inFo}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 348", server: 63.181.22.229, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 349\n", server: zula.ir, port: 8443, type: vmess, uuid: 31282b16-3001-4c63-b2e3-6954c6da063c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: zula.ir, network: grpc, grpc-opts: {grpc-service-name: VPNHOMES}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 351", server: 142.4.216.225, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 352", server: 37.221.125.38, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: JQcc2rIZtXamatRYAINIddMom3MBu7zF, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 352\n", server: zula.ir, port: 8443, type: vmess, uuid: 89b691a6-8327-4627-8bbf-9ef024fe94e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: zula.ir, network: grpc, grpc-opts: {grpc-service-name: VPNHOMES}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 354", server: 95.164.113.198, port: 53829, type: ss, cipher: chacha20-ietf-poly1305, password: Kbm3xoK04p4OhoqVpEzdlj, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 358", server: 45.76.47.77, port: 443, type: trojan, password: wkmY1R4EcP, sni: google.com, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 363", server: 104.17.163.123, port: 8443, type: trojan, password: wz2vh0awz8iw, sni: y98fk7q84z0wfcjuirh.zjde5.de5.net, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: y98fk7q84z0wfcjuirh.zjde5.de5.net}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 363\n", server: zula.ir, port: 2096, type: vmess, uuid: 3762cc1f-676d-41ad-afc0-4ce6035ddc3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: zula.ir, network: grpc, grpc-opts: {grpc-service-name: Freevpnhomes}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 371\n", server: zula.ir, port: 2096, type: vmess, uuid: acbd0136-d1b4-47c9-b62d-30de074d7dbd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: zula.ir, network: grpc, grpc-opts: {grpc-service-name: Freevpnhomes}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 374", server: 151.242.251.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 376\n", server: zula.ir, port: 2096, type: vmess, uuid: 0a7e756c-5694-4d8c-a29e-28b6e9340017, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: fragment2.karop.homes, network: ws, ws-opts: {path: /VPNHOMES, headers: {Host: fragment2.karop.homes}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 379", server: 176.125.240.25, port: 8433, type: ss, cipher: chacha20-ietf-poly1305, password: QR4ynrAzAhBapPryha15NJ, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 385\n", server: zula.ir, port: 2096, type: vmess, uuid: ddeea8a5-260e-4b6e-9cbb-804f106d5bee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: kingo.hightechservice.ir, network: ws, ws-opts: {path: /, headers: {Host: kingo.hightechservice.ir}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 388\n", server: Cpannel.iranucshop.ir, port: 2085, type: vmess, uuid: 2c72c667-093c-47a5-a108-493c93282b57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 393", server: 20.254.21.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 393\n", server: akh1.alibabaapi6.com, port: 14610, type: vmess, uuid: a2f33600-7ff1-46c4-abc9-7deb843e88a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be4f/, headers: {Host: akh1.alibabaapi6.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 394\n", server: akh2.alibabaapi6.com, port: 14310, type: vmess, uuid: a2f33600-7ff1-46c4-abc9-7deb843e88a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /5e60be4f/, headers: {Host: akh2.alibabaapi6.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 397", server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 400", server: 4.250.57.235, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: WstuSnlu4ieA9M0L, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 336", server: 51.45.54.119, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 338", server: 52.28.55.17, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 341", server: 45.83.131.43, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: HfAiyrdFbKJuKIQkGjvJrDFefmH8YDSC, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 343", server: 52.58.206.224, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 353\n", server: zula.ir, port: 8443, type: vmess, uuid: b35d39bb-1d9b-4e97-a079-e62f6c724206, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: zula.ir, network: grpc, grpc-opts: {grpc-service-name: VPNHOMES}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 364", server: 23.95.75.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: NDRySIABARbErNIVsCNVkyYAHiBzhveT, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 366\n", server: zula.ir, port: 2096, type: vmess, uuid: 72ac18b5-8fba-48ac-8445-180d24483dce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: zula.ir, network: grpc, grpc-opts: {grpc-service-name: Freevpnhomes}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 367", server: 160.19.78.75, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 37", server: hl-freedom-1.undef.network, port: 443, type: trojan, password: 7LBbob9IutFObLxLf9Svc1HaV, sni: hl-freedom-1.undef.network, skip-cert-verify: false, network: ws, ws-opts: {path: /f2fc2a1f, headers: {Host: hl-freedom-1.undef.network}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 377", server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 378", server: 45.87.175.165, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 380\n", server: zula.ir, port: 2096, type: vmess, uuid: 65516571-392c-404f-a584-30b675420dff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: fragment2.karop.homes, network: ws, ws-opts: {path: /VPNHOMES, headers: {Host: fragment2.karop.homes}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 383", server: 193.203.203.66, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 385", server: 212.192.14.221, port: 24548, type: ss, cipher: chacha20-ietf-poly1305, password: TfKSKevaDXHnvNzCyUUsMo, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 386", server: 62.133.63.169, port: 37096, type: ss, cipher: chacha20-ietf-poly1305, password: Ul0rGyAAed5HRDpvFqr2C0, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 389\n", server: XXXccFrt.922922.ShOP, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: XXXccFrt.922922.ShOP}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 39", server: 104.18.32.47, port: 443, type: trojan, password: 87d1bfd4-574e-4c96-ad42-0426f27461ff, sni: _acme-challenge.2go.cloudns.be, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: _acme-challenge.2go.cloudns.be}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 395\n", server: alm1.the-galgo.top, port: 32011, type: vmess, uuid: db3c11d8-ae65-40ff-a256-babee94056f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 396\n", server: ast.nvtnl.blog, port: 8888, type: vmess, uuid: abee1ed3-9cad-4ee8-9a15-6e0db76ae8f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: Myket.ir}}, udp: true, tfo: true}
   - {name: "@vpnclashfa - 401", server: 147.45.178.24, port: 56259, type: ss, cipher: chacha20-ietf-poly1305, password: XEgifzBjI9TWGZzzOU6XOg, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 401\n", server: c86s3.portablesubmarines.com, port: 31350, type: vmess, uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 411", server: 46.246.97.140, port: 53908, type: ss, cipher: chacha20-ietf-poly1305, password: ZweuXavjovuhzt1AF0d6qx, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 418", server: 5.188.4.103, port: 11204, type: ss, cipher: chacha20-ietf-poly1305, password: a7c205642b302c20, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 420\n", server: dll.avaaaal.ir, port: 8443, type: vmess, uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cdge.avaaaal.ir}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 421", server: 5.188.4.103, port: 11205, type: ss, cipher: chacha20-ietf-poly1305, password: a7c205642b302c20, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 402", server: 147.45.178.24, port: 56259, type: ss, cipher: chacha20-ietf-poly1305, password: XEgifzBjI9TWGZzzOU6XOg, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 404", server: 145.249.109.108, port: 18740, type: ss, cipher: chacha20-ietf-poly1305, password: YHalDvP1z5RriU6l4LngKi, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 404\n", server: callmevpn8.callmeshop.fun, port: 12128, type: vmess, uuid: b3f80ab7-9de1-499b-8703-681fec8cc71d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 405\n", server: capellare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: capellare.com, network: ws, ws-opts: {path: /linkvws, headers: {Host: capellare.com}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 406", server: 83.147.216.70, port: 64519, type: ss, cipher: chacha20-ietf-poly1305, password: YXgS8ComTam7qoesPlzlMo, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 407", server: 185.5.38.111, port: 55988, type: ss, cipher: chacha20-ietf-poly1305, password: ZEZ2bfFbViC9usN1WB4xqvyzEuUhPA2uuUYZmjKAWTQc3mErhCaVHmZbbWgVG9oi1VHhz12KP2gAWC8LZJ4imWhypAD9PG3u, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 414", server: 5.188.4.103, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: a7c205642b302c20, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 419", server: 5.188.4.103, port: 11205, type: ss, cipher: chacha20-ietf-poly1305, password: a7c205642b302c20, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 423\n", server: farzad.vipgsmteam.info, port: 33953, type: vmess, uuid: 7f825444-49dd-414b-cdc2-ac6643e91350, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "@vpnclashfa - 424\n", server: farzad.vipgsmteam.info, port: 33953, type: vmess, uuid: 3db07745-4ba5-4663-8eb4-c7796d67e9e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 430", server: 213.156.137.142, port: 43659, type: ss, cipher: chacha20-ietf-poly1305, password: a8201bbd740420bb, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 437", server: 163.171.213.47, port: 12025, type: ss, cipher: chacha20-ietf-poly1305, password: abe595aeb7a6a035, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 441", server: 5.181.2.73, port: 43248, type: ss, cipher: chacha20-ietf-poly1305, password: bSFMvNLHapp4ZrcGIXy9Vt, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 443", server: 185.39.204.161, port: 33563, type: ss, cipher: chacha20-ietf-poly1305, password: bSlgCoGhApOb55tIMD0zxY, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 444", server: 141.95.101.9, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: bb33fe67a330b3ea, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 447\n", server: mci.yektanet.info, port: 55555, type: vmess, uuid: 9c8f8e87-31e2-4b7b-9a28-b671efc426a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 427", server: 45.144.49.140, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 430\n", server: hopev2ray.ddns.net, port: 443, type: vmess, uuid: 30c15ea0-ec27-11ed-b630-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: fr-1.0rd.net, network: ws, ws-opts: {path: /@hopev2ray, headers: {Host: fr-1.0rd.net}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 431", server: 45.158.171.141, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: a8bt9fY0QsLS6eLnXUe0Ym, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 434", server: 57.129.129.139, port: 29183, type: ss, cipher: chacha20-ietf-poly1305, password: ab0b81a5bff7ddea, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 438", server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 444\n", server: kmp.pmgdrs.site, port: 19013, type: vmess, uuid: 292ce50b-3dd9-4895-bfe3-ab20c4b6c366, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: grpc, servername: kmp.pmgdrs.site, grpc-opts: {grpc-service-name: /}, udp: true, tfo: true}
   - {name: "@vpnclashfa - 448", server: 54.37.77.214, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: c0fb2805ee931691, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 448\n", server: max.mankadmu.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: max.mankadmu.com, network: ws, ws-opts: {path: /linkvws, headers: {Host: max.mankadmu.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 449", server: 147.45.178.200, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true, tfo: true}
   - {name: "@vpnclashfa - 45\n", server: 47.244.120.197, port: 36703, type: vmess, uuid: 45b83519-9c4f-4052-a11b-02e017b636d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 451", server: 141.95.106.231, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: c8e2102ca3eee7ec, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 454", server: 54.37.78.252, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: caac660070728d6c, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 455", server: 38.54.29.57, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: cb955c8530320120, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 456\n", server: n1747624280.lie5d.cyou, port: 443, type: vmess, uuid: 49dcf4b4-81eb-4fe2-91d3-86dc2e27ced5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: n1747624280.lie5d.cyou, network: ws, ws-opts: {path: /, headers: {Host: n1747624280.lie5d.cyou}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 456", server: 38.54.29.57, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: cb955c8530320120, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 457", server: 213.156.137.142, port: 43660, type: ss, cipher: chacha20-ietf-poly1305, password: cc27a3012d81a44c, udp: true, tfo: true}
   - {name: "@vpnclashfa - 458", server: 213.156.137.142, port: 43660, type: ss, cipher: chacha20-ietf-poly1305, password: cc27a3012d81a44c, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 463", server: 45.144.54.33, port: 34803, type: ss, cipher: chacha20-ietf-poly1305, password: cf9pTE2sVT9UUvalTmK72I, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 465\n", server: n1761214907.74qxv.top, port: 443, type: vmess, uuid: 4c17399f-c93d-4527-8ace-5bdc2f0901f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: n1761214907.74qxv.top}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 466", server: 193.29.139.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 47\n", server: 47.250.45.234, port: 8613, type: vmess, uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 472\n", server: nextmi.hajmyab.ir, port: 2053, type: vmess, uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: app.hajmyab.ir, network: ws, ws-opts: {path: /, headers: {Host: app.hajmyab.ir}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 473", server: 57.129.95.198, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d6b0973401858b29, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 475", server: 37.59.24.117, port: 10018, type: ss, cipher: chacha20-ietf-poly1305, password: d919a442277305db, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 476", server: 57.128.30.201, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d974573beb3f30d4, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 478", server: 144.31.92.138, port: 18851, type: ss, cipher: chacha20-ietf-poly1305, password: dZxQ63nLxtGYu6WpVt6Iva, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 48", server: production.tj.ojan.workers.dev, port: 443, type: trojan, password: 9yu6m5okr, sni: production.tj.ojan.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: production.tj.ojan.workers.dev}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 481", server: 154.26.132.38, port: 27883, type: ss, cipher: chacha20-ietf-poly1305, password: ded718fcb2bb17b7, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 484\n", server: pq-brazil1.09vpn.com, port: 80, type: vmess, uuid: c04c3b34-70fd-4fec-963e-c12d09f36bef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: pq-brazil1.09vpn.com}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 490", server: 45.86.229.170, port: 56019, type: ss, cipher: chacha20-ietf-poly1305, password: eT3cx4LuYj5pAorp8c4xeW, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 491\n", server: se-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: se-ls03.nb1.fr, network: ws, ws-opts: {path: /clientarea, headers: {Host: se-ls03.nb1.fr}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 492", server: 212.192.14.234, port: 24441, type: ss, cipher: chacha20-ietf-poly1305, password: eaTzMJaYNiUu8GKuTOefke, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 493", server: 141.95.107.129, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: ebf915eda54bdfac, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 494", server: 141.95.105.163, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: edd359f594dea842, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 495\n", server: sfo1.nuker.biz, port: 443, type: vmess, uuid: 09acf9f3-3b90-4dbe-9c47-16a58bc1bf62, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sfo1.nuker.biz}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 499", server: 64.74.163.82, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 505", server: 147.45.179.104, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: g9onqrSqx1_yEvMnxWHBTHMc_gwjTQKt, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 513", server: 46.246.96.30, port: 31561, type: ss, cipher: chacha20-ietf-poly1305, password: hc8LMJew3Fl9MbcFCoFgT0, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 516", server: 91.239.208.204, port: 17477, type: ss, cipher: chacha20-ietf-poly1305, password: hzxQofNAcTk2xo2drzxpIE, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 52", server: 38.180.191.251, port: 443, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 520", server: 45.89.55.173, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ixPymFma6P7U41wk9MNP7znPnvax3mjd, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 521", server: 62.60.233.220, port: 18685, type: ss, cipher: chacha20-ietf-poly1305, password: ixfXBq6dfMQQFiEz6PBcTy, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 527", server: 82.38.31.191, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 53\n", server: 47.250.45.234, port: 8613, type: vmess, uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 533", server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 536", server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 538", server: 57.129.140.88, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: k1v5g9FefdoO, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 548", server: 3.1.195.148, port: 8316, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true, tfo: true}
-  - {name: "@vpnclashfa - 55", server: 139.84.233.136, port: 15813, type: trojan, password: H8Gwt1EIq-jxr%3Dg%23, sni: luckyday.silentrocket.click, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 555", server: 3.112.130.53, port: 8319, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true, tfo: true}
-  - {name: "@vpnclashfa - 563", server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 569", server: 45.83.142.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: nxgsmHkP3JU7hbQkJfxgpXh5tlvXe1en, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 571", server: 62.133.63.169, port: 37096, type: ss, cipher: chacha20-ietf-poly1305, password: oGmgmQoKE3xqSQFhU4Isuw, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 458\n", server: n1761214902.wpg27.xyz, port: 443, type: vmess, uuid: 469e9a38-b64e-46c3-9793-234158942d3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: n1761214902.wpg27.xyz}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 462", server: 213.156.137.142, port: 43663, type: ss, cipher: chacha20-ietf-poly1305, password: cc27a3012d81a44c, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 466\n", server: n1761214907.74qxv.top, port: 443, type: vmess, uuid: 4c17399f-c93d-4527-8ace-5bdc2f0901f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: n1761214907.74qxv.top, network: ws, ws-opts: {path: /, headers: {Host: n1761214907.74qxv.top}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 472", server: 57.129.95.198, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d6b0973401858b29, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 474", server: 57.129.58.21, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d83d46bfc3c304ab, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 484", server: 78.40.116.11, port: 50589, type: ss, cipher: chacha20-ietf-poly1305, password: e0AuSSE9kqrZnpK1RgcuPt, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 488", server: 57.128.190.194, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: e5c3f903e81d5d4e, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 491", server: 95.163.176.37, port: 8506, type: ss, cipher: chacha20-ietf-poly1305, password: eUh4lSpi7nOYj0vSrqLUh0, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 493\n", server: serb.srvtogo.com, port: 9900, type: vmess, uuid: e089b18d-0415-4e54-8cf8-081c9fc91330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 497", server: 95.164.123.196, port: 57493, type: ss, cipher: chacha20-ietf-poly1305, password: evFIqXOc55xLHMluu5zX31, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 50\n", server: 47.250.45.234, port: 8613, type: vmess, uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 511", server: 195.66.27.148, port: 28709, type: ss, cipher: chacha20-ietf-poly1305, password: hShp1Km0NcFSmSigc8ozky, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 518", server: 62.133.63.21, port: 65262, type: ss, cipher: chacha20-ietf-poly1305, password: iE4NWjJhtit0C7vijEkHtp, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 530", server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 535", server: 82.38.31.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 537", server: 57.129.140.88, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: k1v5g9FefdoO, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 543", server: 194.59.183.134, port: 46114, type: ss, cipher: chacha20-ietf-poly1305, password: lejSRyqa033OEPmEQsvRsl, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 551", server: 3.112.130.53, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true, tfo: true}
+  - {name: "@vpnclashfa - 559", server: 77.105.166.12, port: 8594, type: ss, cipher: chacha20-ietf-poly1305, password: mSQiuT5jR17nyWgcXOPrTW, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 56", server: ru2.asc-sam.ir, port: 443, type: trojan, password: IM4e0ZQNPU, sni: journalofbigdata.springeropen.com, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 56\n", server: 47.251.91.241, port: 42899, type: vmess, uuid: 0925b355-2bcd-4eae-9720-d2709e4f7e36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 564", server: series-a2.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 566", server: 178.130.46.148, port: 47345, type: ss, cipher: chacha20-ietf-poly1305, password: nGSRvZ5IsYcRNDpDtNVrkV, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 57", server: amanm.wsone.icu, port: 443, type: trojan, password: M7v%25w11Se%2A, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 575", server: 103.104.247.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
   - {name: "@vpnclashfa - 58", server: amanm.wsone.icu, port: 443, type: trojan, password: M7v%25w11Se%2A, sni: amanm.wsone.icu, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 580", server: 193.29.139.209, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 584", server: 45.158.171.60, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 586", server: 45.87.175.10, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
   - {name: "@vpnclashfa - 588", server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 59", server: hyfuuf6.wsone.icu, port: 443, type: trojan, password: M7v%25w11Se%2A, sni: hyfuuf6.wsone.icu, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 594", server: 82.38.31.124, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
   - {name: "@vpnclashfa - 595", server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 598", server: 82.38.31.62, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 602", server: 54.36.174.134, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pvgz9pq, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 609", server: 45.95.233.75, port: 27389, type: ss, cipher: chacha20-ietf-poly1305, password: qYkmH2DU5LiiIzU8BKyZxo, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 605", server: pl140.vpnbook.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pvgz9pq, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 616", server: 145.249.109.121, port: 25512, type: ss, cipher: chacha20-ietf-poly1305, password: smSMfR9jqLgMkHuQtxSIWh, udp: true, tfo: true}
   - {name: "@vpnclashfa - 619", server: 54.36.174.140, port: 443, type: ss, cipher: chacha20-poly1305, password: pvgz9pq, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 62\n", server: 51.81.223.13, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 622", server: 153.121.43.183, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 624", server: 82.180.146.173, port: 30607, type: ss, cipher: aes-128-gcm, password: 162629d7-cb17-43b1-82c9-f9c7ae6cba70, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 644", server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 654", server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 659", server: 217.30.10.70, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 665", server: 103.186.154.247, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 666", server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 669", server: 103.186.154.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 67", server: sweden.vmaxpanel.com, port: 8443, type: trojan, password: T9BpZIVMNv, skip-cert-verify: false, network: ws, ws-opts: {path: /amd}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 703", server: 194.233.94.119, port: 80, type: ss, cipher: aes-256-gcm, password: 8t2xeemUtyui4zAv, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 704", server: 194.233.94.119, port: 80, type: ss, cipher: aes-256-gcm, password: 8t2xeemUtyui4zAv, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 714", server: 83.229.85.63, port: 36637, type: ss, cipher: aes-256-gcm, password: Ovs2aPyBWtgpHnnW1qPufUGp3LQRlIvlQZD23l/Gv6c=, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 716", server: 130.49.150.88, port: 22207, type: ss, cipher: aes-256-gcm, password: L0VhlpPzi6WuoWbr5vf8jgA58kfm0fotevKolloxuZE=, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 620", server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 629", server: relay1.wl-node1.com, port: 39006, type: ss, cipher: aes-128-gcm, password: 9327f23a-5129-4740-9c0b-3b1c2b1aa7a3, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 633", server: 45.82.67.38, port: 16485, type: ss, cipher: aes-128-gcm, password: 9Ya5Q6xXako51EFZtOWDXmbEs4Gjw9IU, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 638", server: 45.82.67.252, port: 16484, type: ss, cipher: aes-128-gcm, password: ZB1VG0KEzX8AZf2DmLo8FAAiRD5QMqnf, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 648", server: 149.34.244.68, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 656", server: 205.209.104.91, port: 17895, type: ss, cipher: aes-128-gcm, password: shisCffVrVeeYneLb6hcG4Qhu2cXJX6F, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 66", server: 83.143.87.9, port: 18581, type: trojan, password: RPyW62_b9aH.ztJKeArou, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 67\n", server: 57.129.132.223, port: 80, type: vmess, uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: viber.com}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 676", server: 103.186.155.222, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 677", server: 103.186.155.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 678", server: 103.186.155.42, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 68", server: v1.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, skip-cert-verify: false, network: ws, ws-opts: {path: /amd, headers: {Host: sweden.vmaxpanel.com}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 686", server: 163.172.64.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 689", server: 57.131.38.151, port: 8443, type: ss, cipher: aes-256-gcm, password: +zFL0Y7sYQ6BRrYIJ7dXG8sUqbv2HzbRt1ZDcsvUZFs=, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 694", server: 154.12.242.150, port: 443, type: ss, cipher: aes-256-gcm, password: 7vZO55fXgXAJXa2F, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 696", server: 57.129.121.229, port: 8443, type: ss, cipher: aes-256-gcm, password: 46d51/8QMy48k57CIfS1C5yx2IHsjoEnPJYb7zXDfAc=, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 697", server: 120.241.239.87, port: 16008, type: ss, cipher: aes-256-gcm, password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 7\n", server: 45.12.132.183, port: 80, type: vmess, uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess/}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 71", server: hl-freedom-2.undef.network, port: 443, type: trojan, password: Tn2Bf0iRwJkJQgDk6gX6x81RB, skip-cert-verify: false, network: ws, ws-opts: {path: /f2fc2a1f}, udp: true, tfo: true}
   - {name: "@vpnclashfa - 717", server: 130.49.150.88, port: 22207, type: ss, cipher: aes-256-gcm, password: L0VhlpPzi6WuoWbr5vf8jgA58kfm0fotevKolloxuZE=, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 732", server: 38.121.43.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 734", server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 737", server: 149.102.132.186, port: 80, type: ss, cipher: aes-256-gcm, password: YhzqOeJsfuZ9rkkc, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 720", server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 724", server: 94.156.250.148, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 726", server: 38.68.134.85, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 728", server: 46.250.254.174, port: 80, type: ss, cipher: aes-256-gcm, password: Tqd9GppXpXB8rpc8, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 738", server: 149.102.132.180, port: 80, type: ss, cipher: aes-256-gcm, password: ZTiO11KwZG3S7aET, udp: true, tfo: true}
   - {name: "@vpnclashfa - 739", server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 755", server: 46.250.234.115, port: 80, type: ss, cipher: aes-256-gcm, password: jMogNXXk08l2JK0N, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 757", server: 149.102.132.184, port: 80, type: ss, cipher: aes-256-gcm, password: ldjmwoNqgQqqc43j, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 759", server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 76\n", server: 57.129.25.23, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: yichueng.org}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 761", server: 194.233.75.190, port: 80, type: ss, cipher: aes-256-gcm, password: qKvfX7yQnT99OMu3, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 762", server: 149.102.149.207, port: 80, type: ss, cipher: aes-256-gcm, password: umWwoQJEJGf74SLe, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 763", server: 149.102.149.207, port: 80, type: ss, cipher: aes-256-gcm, password: umWwoQJEJGf74SLe, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 77", server: 80.173.230.196, port: 26279, type: trojan, password: a5inYFE%3DJGV89+hjxIqgDp1tcWBd6, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 87", server: 172.66.44.87, port: 443, type: trojan, password: bpb-trojan, sni: 10-bPb-woRKEr-panEL.PaGES.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/trzf4cT2bn8MYJ0wE4?ed=2560", headers: {Host: 10-bPb-woRKEr-panEL.PaGES.dev}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 9", server: 185.234.66.155, port: 2053, type: trojan, password: 2997d686-d910-441b-a15c-c8d11c366025, sni: ftp.debian.org, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 97", server: www.speedtest.net, port: 443, type: trojan, password: bpb-trojan, sni: 10-bpb-wORkER-paNel.pAGEs.DeV, skip-cert-verify: false, network: ws, ws-opts: {path: "/trWqTr0NddXyLOpy0S?ed=2560", headers: {Host: 10-bpb-wORkER-paNel.pAGEs.DeV}}, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 97\n", server: 81.12.33.180, port: 2028, type: vmess, uuid: f993b24a-015f-4127-9bb1-ad5272f81961, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "@vpnclashfa - 99", server: 57.131.42.19, port: 8390, type: ss, cipher: 2022-blake3-aes-256-gcm, password: et1sgh1iQaWzsw201JX2eexN1Ai6QmIGcZIlvlC5L54=, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 740", server: 38.75.136.102, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 744", server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 748", server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 750", server: 209.126.5.209, port: 80, type: ss, cipher: aes-256-gcm, password: kEVKj1xvgzeEn8AV, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 753", server: 64.176.215.70, port: 80, type: ss, cipher: aes-256-gcm, password: hbhO0xomsJzhO24F, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 768", server: 45.77.253.107, port: 80, type: ss, cipher: aes-256-gcm, password: zwjlU97tBKtPJPB5, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 89\n", server: 8.210.165.109, port: 443, type: vmess, uuid: b141803a-209c-47bd-be6e-14d6bc1e96be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: n1761214918.74qxv.top, network: ws, ws-opts: {path: /, headers: {Host: n1761214918.74qxv.top}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 9\n", server: 45.12.132.183, port: 80, type: vmess, uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: 45.12.132.183}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 90\n", server: 8.217.13.74, port: 31769, type: vmess, uuid: cf1ad6c7-5987-4314-82bb-b4399040d047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 94", server: digiclassor.ir, port: 443, type: trojan, password: bpb-trojan, sni: 10-Bpb-WOrKer-paneL.pagEs.DeV, skip-cert-verify: false, network: ws, ws-opts: {path: "/trmqBcNssn2YTZY2qv?ed=2560", headers: {Host: 10-Bpb-WOrKer-paneL.pagEs.DeV}}, udp: true, tfo: true}
+  - {name: "@vpnclashfa - 95", server: 95.217.37.166, port: 2020, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ietXbfq03Vh8XCaxyCDIEg==, udp: true, tfo: true}
