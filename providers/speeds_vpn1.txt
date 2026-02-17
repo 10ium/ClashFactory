@@ -1,6 +1,7 @@
 proxies:
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 133ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 226ms, server: 213.156.137.142, port: 43660, type: ss, cipher: chacha20-ietf-poly1305, password: cc27a3012d81a44c, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 229ms, server: 136.244.100.113, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: yODLXVLz2FWNTFeSSng3Fm, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 287ms, server: 136.244.100.113, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: yODLXVLz2FWNTFeSSng3Fm, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 TR-WS-N/A ❔ XX 9ms, server: 172.64.155.209, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 288ms, server: 136.244.100.113, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: yODLXVLz2FWNTFeSSng3Fm, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 96ms, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down, server: 20.254.21.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 2, server: 20.254.21.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 TR-WS-N/A ❔ XX 3ms, server: 172.67.180.92, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 TR-WS-N/A ❔ XX 3ms 2, server: 188.114.96.3, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
