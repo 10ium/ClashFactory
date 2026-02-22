@@ -1,10 +1,14 @@
 proxies:
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 100ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 95ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 96ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down, server: 78.38.246.150, port: 8446, type: ss, cipher: chacha20-poly1305, password: 6e3e43f4-12b7-42f1-8b93-41a152d5612d, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 2, server: 20.108.9.179, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 3, server: 20.108.9.179, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 4, server: 20.108.9.179, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 5, server: 78.38.246.150, port: 8446, type: ss, cipher: chacha20-poly1305, password: 6e3e43f4-12b7-42f1-8b93-41a152d5612d, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 TR-WS-N/A ❔ XX 4ms, server: v1.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, skip-cert-verify: false, network: ws, ws-opts: {path: /amd, headers: {Host: sweden.vmaxpanel.com}}, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 145ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 145ms 2, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 147ms, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 148ms, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 149ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 153ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 157ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down, server: 20.108.9.179, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 2, server: 78.38.246.150, port: 8446, type: ss, cipher: chacha20-poly1305, password: 6e3e43f4-12b7-42f1-8b93-41a152d5612d, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 3, server: 78.38.246.150, port: 8446, type: ss, cipher: chacha20-poly1305, password: 6e3e43f4-12b7-42f1-8b93-41a152d5612d, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 4, server: 20.90.81.219, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 TR-WS-N/A ❔ XX 32ms, server: www.gossipglove.com, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 TR-WS-N/A ❔ XX 8ms, server: v1.dabache.top, port: 8443, type: trojan, password: T9BpZIVMNv, sni: sweden.vmaxpanel.com, skip-cert-verify: false, network: ws, ws-opts: {path: /amd, headers: {Host: sweden.vmaxpanel.com}}, udp: true, tfo: true}
