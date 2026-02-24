@@ -1,5 +1,6 @@
 proxies:
-  - {name: v2ray1_ng 🔒 SS-TCP-TLS ❔ XX 127ms, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
-  - {name: v2ray1_ng 🔒 SS-TCP-TLS ❔ XX down, server: 78.38.246.150, port: 8446, type: ss, cipher: chacha20-poly1305, password: 6e3e43f4-12b7-42f1-8b93-41a152d5612d, udp: true, tfo: true}
-  - {name: v2ray1_ng 🔒 SS-TCP-TLS 🇮🇷 IR down, server: 78.38.246.150, port: 8446, type: ss, cipher: chacha20-poly1305, password: 6e3e43f4-12b7-42f1-8b93-41a152d5612d, udp: true, tfo: true}
-  - {name: v2ray1_ng 🔒 TR-WS-N/A ❔ XX 20ms, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
+  - {name: v2ray1_ng 🔒 SS-TCP-TLS ❔ XX 110ms, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: v2ray1_ng 🔓 VM-TCP-N/A ❔ XX down, server: 193.151.146.232, port: 17356, type: vmess, uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: v2ray1_ng 🔓 VM-TCP-N/A 🇮🇷 IR 451ms, server: 193.151.146.232, port: 17356, type: vmess, uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: 🇺🇸 v2ray1_ng 🔒 TR-WS-N/A 🇺🇸 US 15ms, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
+  - {name: 🇺🇸 v2ray1_ng 🔓 VM-WS-N/A 🇺🇸 US 30ms, server: tgju.org, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-571296497.iranpress.co}}, udp: true, tfo: true}

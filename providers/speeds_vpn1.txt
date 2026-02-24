@@ -1,12 +1,24 @@
 proxies:
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 125ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 126ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 127ms, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 128ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 199ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down, server: 78.38.246.150, port: 8446, type: ss, cipher: chacha20-poly1305, password: 6e3e43f4-12b7-42f1-8b93-41a152d5612d, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 2, server: 20.90.81.219, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 3, server: 162.19.208.118, port: 50285, type: ss, cipher: chacha20-ietf-poly1305, password: 4anGtou86vGB7r1lOm5n8g, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down 4, server: 194.61.120.154, port: 5061, type: ss, cipher: chacha20-ietf-poly1305, password: pOcB9Vq2e0tDgEpoCArm0h, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 TR-WS-N/A ❔ XX 19ms, server: www.gossipglove.com, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: true}
-  - {name: 🇬🇧 speeds_vpn1 🔒 SS-TCP-TLS 🇬🇧 GB 127ms, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 102ms, server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 106ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 107ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 108ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 110ms, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 110ms 2, server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 112ms, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 114ms, server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 121ms, server: 194.61.120.154, port: 5061, type: ss, cipher: chacha20-ietf-poly1305, password: pOcB9Vq2e0tDgEpoCArm0h, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 122ms, server: 162.19.208.118, port: 50285, type: ss, cipher: chacha20-ietf-poly1305, password: 4anGtou86vGB7r1lOm5n8g, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 144ms, server: 94.131.123.86, port: 35361, type: ss, cipher: chacha20-ietf-poly1305, password: SSmfl4Tq1rRlB7boDY3jlt, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 164ms, server: 62.60.233.220, port: 18685, type: ss, cipher: chacha20-ietf-poly1305, password: ixfXBq6dfMQQFiEz6PBcTy, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 208ms, server: 141.95.106.127, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 94aae0510188e8c5, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down, server: 20.90.250.133, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS 🇹🇷 TR 333ms, server: h110vpntr.outlinekeys.net, port: 65262, type: ss, cipher: chacha20-ietf-poly1305, password: HIidWwXqB4zYL6RmgKABUH, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 TR-WS-N/A ❔ XX 15ms, server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: true}
+  - {name: 🇩🇪 speeds_vpn1 🔒 SS-TCP-TLS 🇩🇪 DE 206ms, server: 141.95.106.127, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 94aae0510188e8c5, udp: true, tfo: true}
+  - {name: 🇬🇧 speeds_vpn1 🔒 SS-TCP-TLS 🇬🇧 GB 107ms, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: 🇬🇧 speeds_vpn1 🔒 SS-TCP-TLS 🇬🇧 GB 110ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: 🇬🇧 speeds_vpn1 🔒 SS-TCP-TLS 🇬🇧 GB 112ms, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: 🇬🇧 speeds_vpn1 🔒 SS-TCP-TLS 🇬🇧 GB down, server: 20.90.81.219, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: 🇬🇧 speeds_vpn1 🔒 SS-TCP-TLS 🇬🇧 GB down 2, server: 20.90.250.133, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: 🇳🇱 speeds_vpn1 🔒 SS-TCP-TLS 🇳🇱 NL 123ms, server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
