@@ -6,15 +6,15 @@ proxies:
   - {name: NetAccount, server: x2.mehradservice.com, port: 4452, type: vmess, uuid: 48061616-3880-448e-81e1-347e84440b81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "Telegram: @configraygan", server: 94.139.180.83, port: 443, type: vmess, uuid: 7bd44611-f2ca-4ad0-bed5-2fe8f2387d68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "Telegram: @configraygan 2", server: nl1.iranishops.com, port: 443, type: vmess, uuid: bfbd80e5-3299-f450-6802-2423af1aafd2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "Telegram: @wiki_tajrobe", server: nl1.iranishops.com, port: 443, type: vmess, uuid: bfbd80e5-3299-f450-6802-2423af1aafd2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: "Telegram: @wiki_tajrobe 2", server: 94.139.180.83, port: 443, type: vmess, uuid: 7bd44611-f2ca-4ad0-bed5-2fe8f2387d68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "Telegram: @wiki_tajrobe", server: 94.139.180.83, port: 443, type: vmess, uuid: 7bd44611-f2ca-4ad0-bed5-2fe8f2387d68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: "Telegram: @wiki_tajrobe 2", server: nl1.iranishops.com, port: 443, type: vmess, uuid: bfbd80e5-3299-f450-6802-2423af1aafd2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "Telegram: @wiki_tajrobe 3", server: line1.bsgermdubra.com, port: 51660, type: vmess, uuid: 0b67b1c0-678d-463b-86ef-ccdf755a959e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
   - {name: "Telegram: @wiki_tajrobe 4", server: 85.208.104.132, port: 46602, type: ss, cipher: chacha20-ietf-poly1305, password: b4b78f5d-f4ec-4eae-8f83-9e4ed9e16326, udp: true, tfo: true}
   - {name: "Telegram: @wiki_tajrobe 5", server: 163.171.181.49, port: 48852, type: ss, cipher: chacha20-ietf-poly1305, password: abc484edcf1be43c, udp: true, tfo: true}
   - {name: "Telegram: @wiki_tajrobe 6", server: 163.171.137.76, port: 48436, type: ss, cipher: chacha20-ietf-poly1305, password: 6d0084c6e4502ab7, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET, server: 52.29.35.131, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET, server: 38.182.109.191, port: 443, type: trojan, password: adb13850-7e70-492e-85b2-01184801d587, sni: us08.oportal.cc, skip-cert-verify: false, udp: true, tfo: true}
   - {name: ⚡Telegram - @SOSkeyNET 2, server: sg05.stimaysmhy8.com, port: 45005, type: trojan, password: 984c7793-1447-4af5-9200-d514ad6fe329, sni: jsygouer.weixin-baidu-qq.com, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET 3, server: 38.182.109.191, port: 443, type: trojan, password: adb13850-7e70-492e-85b2-01184801d587, sni: us08.oportal.cc, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ⚡Telegram - @SOSkeyNET 4, server: 52.29.35.131, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ✅@AR14N24b, server: 52.29.35.131, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ✅@AR14N24b 2, server: 52.29.35.131, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET 3, server: 52.29.35.131, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ⚡Telegram - @SOSkeyNET 4, server: 52.29.35.131, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ✅@AR14N24b, server: 52.29.35.131, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ✅@AR14N24b 2, server: 52.29.35.131, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: true}
