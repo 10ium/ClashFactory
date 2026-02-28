@@ -21,7 +21,6 @@
 * **10ium-configs-collector-ws**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-configs-collector-ws.yaml`
 * **itsyebekhe-PSG-custum**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/itsyebekhe-PSG-custum.yaml`
 * **speeds_vpn1**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/speeds_vpn1.yaml`
-* **v2ray1_ng**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/v2ray1_ng.yaml`
 
 <!-- END_LINKS -->
 
