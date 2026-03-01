@@ -19,6 +19,7 @@
 * **10ium-V2rayCollectorLite-custum**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-V2rayCollectorLite-custum.yaml`
 * **10ium-config-fetcher**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-config-fetcher.yaml`
 * **10ium-configs-collector-ws**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-configs-collector-ws.yaml`
+* **10ium-telegram-configs-collector-custum**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-telegram-configs-collector-custum.yaml`
 * **itsyebekhe-PSG-custum**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/itsyebekhe-PSG-custum.yaml`
 * **speeds_vpn1**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/speeds_vpn1.yaml`
 

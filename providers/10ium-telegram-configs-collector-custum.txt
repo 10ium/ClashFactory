@@ -1,26 +1,67 @@
 proxies:
-  - {name: LATEST-UPDATE 📅 THU-09-BAHMAN-1404 🕑 08:24, server: 127.0.0.1, port: 1080, type: trojan, password: aacabcb-caab-aacb-abcd-acbcccaaabbb, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: LATEST-UPDATE 📅 THU-09-BAHMAN-1404 🕑 08:24 2, server: 127.0.0.1, port: 1080, type: ss, cipher: none, password: aacabcb-caab-aacb-abcd-acbcccaaabbb, udp: true, tfo: true}
-  - {name: SS-TCP-NA 🇧🇬 BG-95.164.116.33:443, server: 95.164.116.33, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA, udp: true, tfo: true}
-  - {name: SS-TCP-NA 🇨🇾 CY-45.15.162.208:17499, server: 45.15.162.208, port: 17499, type: ss, cipher: chacha20-ietf-poly1305, password: vnxfs1r2QESzY2ZkIXQtCy, udp: true, tfo: true}
-  - {name: SS-TCP-NA 🇫🇮 FI-93.152.207.248:34242, server: 93.152.207.248, port: 34242, type: ss, cipher: chacha20-ietf-poly1305, password: ZMCV3ECpby85V6wP9NMfkm, udp: true, tfo: true}
-  - {name: SS-TCP-NA 🇹🇷 TR-185.39.204.189:34085, server: 185.39.204.189, port: 34085, type: ss, cipher: chacha20-ietf-poly1305, password: LFBZQIJCZGOfwhHFlOzK7r, udp: true, tfo: true}
-  - {name: SS-TCP-NA 🇹🇷 TR-62.60.233.220:18685, server: 62.60.233.220, port: 18685, type: ss, cipher: chacha20-ietf-poly1305, password: qXsc4kwL4QFPd2PymKd06w, udp: true, tfo: true}
-  - {name: SS-TCP-NA 🇻🇳 VN-103.186.154.242:38388, server: 103.186.154.242, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
-  - {name: VM-TCP-NA 🇮🇷 IR-185.235.196.80:6889, server: 185.235.196.80, port: 6889, type: vmess, uuid: 594a1615-aea1-4c6a-a040-80fe5644be03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: VM-TCP-NA 🇮🇷 IR-89.44.242.247:2040, server: 89.44.242.247, port: 2040, type: vmess, uuid: 0033fb1a-f855-4acd-9c84-b730bd13eb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: VM-TCP-NA 🇮🇷 IR-89.44.242.255:2010, server: 89.44.242.255, port: 2010, type: vmess, uuid: 75cf0b61-24c5-4ead-80a5-2828291444d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: VM-TCP-NA 🇮🇷 IR-94.139.183.230:1074, server: 94.139.183.230, port: 1074, type: vmess, uuid: 343bfa1a-f8c1-49e1-9bd8-e2f2360f5a7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: VM-TCP-NONE 🇮🇷 IR-193.151.134.37:8081, server: 193.151.134.37, port: 8081, type: vmess, uuid: c2ac3f09-06d0-4dfd-9dee-9e32e4b00727, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: VM-TCP-NONE 🇮🇷 IR-79.175.129.208:41187, server: 79.175.129.208, port: 41187, type: vmess, uuid: 8f4fed06-3d69-4df7-bb39-2180e9f13432, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ, server: 127.0.0.1, port: 8080, type: trojan, password: baccaba-abca-bcaa-cbad-cacbcbbaabac, skip-cert-verify: false, udp: true, tfo: true}
-  - {name: ‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ 2, server: 127.0.0.1, port: 8080, type: ss, cipher: none, password: baccaba-abca-bcaa-cbad-cacbcbbaabac, udp: true, tfo: true}
-  - {name: 🇨🇦 SS-TCP-NA 🇨🇦 CA-45.154.204.7:990, server: 45.154.204.7, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true, tfo: true}
-  - {name: 🇩🇪 SS-TCP-NA 🇩🇪 DE-193.43.104.64:32941, server: 193.43.104.64, port: 32941, type: ss, cipher: chacha20-ietf-poly1305, password: ryemW70bc7ejzSjmYhFZav, udp: true, tfo: true}
-  - {name: 🇩🇪 SS-TCP-NA 🇩🇪 DE-91.239.208.204:17477, server: 91.239.208.204, port: 17477, type: ss, cipher: chacha20-ietf-poly1305, password: hzxQofNAcTk2xo2drzxpIE, udp: true, tfo: true}
-  - {name: 🇫🇷 SS-TCP-NA 🇫🇷 FR-57.128.190.212:10013, server: 57.128.190.212, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: da060a8de3467174, udp: true, tfo: true}
-  - {name: 🇳🇱 SS-TCP-NA 🇳🇱 NL-109.71.246.210:56689, server: 109.71.246.210, port: 56689, type: ss, cipher: chacha20-ietf-poly1305, password: YQCSKoCF3QazW8YlvDBWA4, udp: true, tfo: true}
-  - {name: 🇷🇺 SS-TCP-NA 🇷🇺 RU-145.249.109.144:15544, server: 145.249.109.144, port: 15544, type: ss, cipher: chacha20-ietf-poly1305, password: wk6lA4XRnEWfEnDrdm0NY6, udp: true, tfo: true}
-  - {name: 🇷🇺 SS-TCP-NA 🇷🇺 RU-212.192.14.73:65330, server: 212.192.14.73, port: 65330, type: ss, cipher: chacha20-ietf-poly1305, password: b9zdJ5Jdth3j9O4qKAFtgS, udp: true, tfo: true}
-  - {name: 🇷🇺 SS-TCP-NA 🇷🇺 RU-45.144.31.24:443, server: 45.144.31.24, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA, udp: true, tfo: true}
-  - {name: 🇷🇺 SS-TCP-NA 🇷🇺 RU-84.54.44.54:11270, server: 84.54.44.54, port: 11270, type: ss, cipher: chacha20-ietf-poly1305, password: EHF59cqRIPUWCdCVVesVv3, udp: true, tfo: true}
+  - {name: LATEST-UPDATE 📅 SUN-10-ESFAND-1404 🕑 08:42, server: 127.0.0.1, port: 1080, type: trojan, password: bcacaab-caab-acab-cbad-aacbbbbaccac, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: LATEST-UPDATE 📅 SUN-10-ESFAND-1404 🕑 08:42 2, server: 127.0.0.1, port: 1080, type: ss, cipher: none, password: bcacaab-caab-acab-cbad-aacbbbbaccac, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇦🇷 AR-154.205.154.184:11201, server: 154.205.154.184, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 5b978047b47f7eab, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇧🇷 BR-5.188.4.103:11201, server: 5.188.4.103, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: a7c205642b302c20, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇧🇷 BR-5.188.4.103:11202, server: 5.188.4.103, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: a7c205642b302c20, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇧🇷 BR-5.188.4.103:11204, server: 5.188.4.103, port: 11204, type: ss, cipher: chacha20-ietf-poly1305, password: a7c205642b302c20, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇨🇭 CH-38.180.161.123:8119, server: 38.180.161.123, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇨🇾 CY-45.12.109.198:24604, server: 45.12.109.198, port: 24604, type: ss, cipher: chacha20-ietf-poly1305, password: Cikn5gPJtNZqurNBPspEDz, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇨🇾 CY-45.15.162.92:64351, server: 45.15.162.92, port: 64351, type: ss, cipher: chacha20-ietf-poly1305, password: 1SlIjDKpIlpzZPgT33x6Eb, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇪🇨 EC-185.47.253.227:990, server: 185.47.253.227, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇫🇮 FI-38.244.137.202:45380, server: 38.244.137.202, port: 45380, type: ss, cipher: chacha20-ietf-poly1305, password: E6GbjW3IZ4Wokvz4VYLj4o, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇬🇹 GT-185.47.254.87:990, server: 185.47.254.87, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇭🇷 HR-5.181.2.73:43248, server: 5.181.2.73, port: 43248, type: ss, cipher: chacha20-ietf-poly1305, password: WavHeSGFxfvrkkbQd48PrB, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇭🇷 HR-5.181.2.76:36608, server: 5.181.2.76, port: 36608, type: ss, cipher: chacha20-ietf-poly1305, password: JOZ5Mb3nJCmmoKhd8Cc9aC, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇰🇿 KZ-213.156.137.142:43659, server: 213.156.137.142, port: 43659, type: ss, cipher: chacha20-ietf-poly1305, password: a8201bbd740420bb, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇰🇿 KZ-213.156.137.142:43660, server: 213.156.137.142, port: 43660, type: ss, cipher: chacha20-ietf-poly1305, password: cc27a3012d81a44c, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇲🇩 MD-185.218.3.131:60664, server: 185.218.3.131, port: 60664, type: ss, cipher: chacha20-ietf-poly1305, password: Aex4y92EluOwjtinhoxlsO, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇵🇪 PE-138.186.143.32:989, server: 138.186.143.32, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇸🇪 SE-46.246.96.42:12346, server: 46.246.96.42, port: 12346, type: ss, cipher: chacha20-ietf-poly1305, password: 8nr2nWa5RX4fy3Lbd4kQ0c, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇸🇪 SE-46.246.97.140:53908, server: 46.246.97.140, port: 53908, type: ss, cipher: chacha20-ietf-poly1305, password: ZweuXavjovuhzt1AF0d6qx, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇸🇪 SE-46.246.97.195:23931, server: 46.246.97.195, port: 23931, type: ss, cipher: chacha20-ietf-poly1305, password: 1XSHFjXMLDedtMLJLGDIe8, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇹🇷 TR-154.205.148.202:11202, server: 154.205.148.202, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: 71807718f593d3e6, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇹🇷 TR-154.205.148.202:11203, server: 154.205.148.202, port: 11203, type: ss, cipher: chacha20-ietf-poly1305, password: 71807718f593d3e6, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇹🇷 TR-185.39.204.189:34085, server: 185.39.204.189, port: 34085, type: ss, cipher: chacha20-ietf-poly1305, password: 7IopnX0wzEkrc3ZcVQ978z, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇹🇷 TR-31.210.50.196:12422, server: 31.210.50.196, port: 12422, type: ss, cipher: chacha20-ietf-poly1305, password: Oqt9kgyMGBiOAJPG4uZXlv, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇹🇷 TR-62.133.63.167:61377, server: 62.133.63.167, port: 61377, type: ss, cipher: chacha20-ietf-poly1305, password: E12yZBPC7y8SnmkSYjf0Wl, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇹🇷 TR-62.60.233.220:18685, server: 62.60.233.220, port: 18685, type: ss, cipher: chacha20-ietf-poly1305, password: ixfXBq6dfMQQFiEz6PBcTy, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇹🇷 TR-62.60.233.226:62763, server: 62.60.233.226, port: 62763, type: ss, cipher: chacha20-ietf-poly1305, password: yRdxvK32gcKq8xxNguwU99, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇹🇷 TR-83.217.9.140:1381, server: 83.217.9.140, port: 1381, type: ss, cipher: chacha20-ietf-poly1305, password: JHqptZxDVsnQf0wL2EgNuo, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇹🇷 TR-83.217.9.17:25232, server: 83.217.9.17, port: 25232, type: ss, cipher: chacha20-ietf-poly1305, password: bgvLZUfs8sivoB9A7wkYdm, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇻🇳 VN-103.186.154.161:38388, server: 103.186.154.161, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇻🇳 VN-103.186.154.173:38388, server: 103.186.154.173, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇻🇳 VN-103.186.154.238:38388, server: 103.186.154.238, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇻🇳 VN-103.186.154.41:38388, server: 103.186.154.41, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇻🇳 VN-103.186.154.68:38388, server: 103.186.154.68, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇻🇳 VN-103.186.154.77:38388, server: 103.186.154.77, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇻🇳 VN-103.186.155.136:38388, server: 103.186.155.136, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: SS-TCP-NA 🇻🇳 VN-103.186.155.45:38388, server: 103.186.155.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true, tfo: true}
+  - {name: ‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ, server: 127.0.0.1, port: 8080, type: trojan, password: acbbaca-aabc-acba-dcab-abcabaccbcab, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: ‍💻 DEVELOPED-BY SOROUSH-MIRZAEI 📌 FOLLOW-CONTACT SYDSRSMRZ 2, server: 127.0.0.1, port: 8080, type: ss, cipher: none, password: acbbaca-aabc-acba-dcab-abcabaccbcab, udp: true, tfo: true}
+  - {name: 🇨🇦 SS-TCP-NA 🇨🇦 CA-144.217.164.29:12000, server: 144.217.164.29, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, udp: true, tfo: true}
+  - {name: 🇩🇪 SS-TCP-NA 🇩🇪 DE-141.95.106.127:11201, server: 141.95.106.127, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 94aae0510188e8c5, udp: true, tfo: true}
+  - {name: 🇩🇪 SS-TCP-NA 🇩🇪 DE-57.129.94.79:11206, server: 57.129.94.79, port: 11206, type: ss, cipher: chacha20-ietf-poly1305, password: 70c455c9f19aa3a5, udp: true, tfo: true}
+  - {name: 🇩🇪 SS-TCP-NA 🇩🇪 DE-57.129.95.198:11201, server: 57.129.95.198, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d6b0973401858b29, udp: true, tfo: true}
+  - {name: 🇩🇪 SS-TCP-NA 🇩🇪 DE-95.164.123.39:32821, server: 95.164.123.39, port: 32821, type: ss, cipher: chacha20-ietf-poly1305, password: fBTl409Xqg3DwqKili0NQF, udp: true, tfo: true}
+  - {name: 🇫🇷 SS-TCP-NA 🇫🇷 FR-135.125.245.131:20939, server: 135.125.245.131, port: 20939, type: ss, cipher: chacha20-ietf-poly1305, password: 85d3d8ccba287d3e, udp: true, tfo: true}
+  - {name: 🇫🇷 SS-TCP-NA 🇫🇷 FR-162.19.208.118:50285, server: 162.19.208.118, port: 50285, type: ss, cipher: chacha20-ietf-poly1305, password: 4anGtou86vGB7r1lOm5n8g, udp: true, tfo: true}
+  - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-149.102.149.207:443, server: 149.102.149.207, port: 443, type: ss, cipher: aes-256-gcm, password: umWwoQJEJGf74SLe, udp: true, tfo: true}
+  - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-20.108.17.173:443, server: 20.108.17.173, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
+  - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-51.105.5.205:443, server: 51.105.5.205, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
+  - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-82.38.31.199:8080, server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
+  - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-82.38.31.35:8080, server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
+  - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-82.38.31.89:8080, server: 82.38.31.89, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
+  - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-82.38.31.99:8080, server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
+  - {name: 🇲🇾 SS-TCP-NA 🇲🇾 MY-124.217.247.205:51348, server: 124.217.247.205, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: RZirHzSqyyb37DDIiQeDLZTJft5ZQGmUCwyA3wm5ath4j9Y3, udp: true, tfo: true}
+  - {name: 🇳🇱 SS-TCP-NA 🇳🇱 NL-213.176.16.71:4966, server: 213.176.16.71, port: 4966, type: ss, cipher: chacha20-ietf-poly1305, password: lXOVjEMsx00jeOQzHsQrkL, udp: true, tfo: true}
+  - {name: 🇵🇱 SS-TCP-NA 🇵🇱 PL-57.128.214.100:12000, server: 57.128.214.100, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, udp: true, tfo: true}
+  - {name: 🇷🇺 SS-TCP-NA 🇷🇺 RU-212.192.14.226:41968, server: 212.192.14.226, port: 41968, type: ss, cipher: chacha20-ietf-poly1305, password: gC7aQv9DsENaVfKzTPDKYV, udp: true, tfo: true}
+  - {name: 🇷🇺 SS-TCP-NA 🇷🇺 RU-212.192.14.234:24441, server: 212.192.14.234, port: 24441, type: ss, cipher: chacha20-ietf-poly1305, password: Ow8iSExQNaobZPY9bJ4EPI, udp: true, tfo: true}
+  - {name: 🇷🇺 SS-TCP-NA 🇷🇺 RU-212.192.14.73:65330, server: 212.192.14.73, port: 65330, type: ss, cipher: chacha20-ietf-poly1305, password: hyeRslWhyBanRDW6PyTiSC, udp: true, tfo: true}
+  - {name: 🇷🇺 SS-TCP-NA 🇷🇺 RU-45.89.55.173:443, server: 45.89.55.173, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ixPymFma6P7U41wk9MNP7znPnvax3mjd, udp: true, tfo: true}
+  - {name: 🇷🇺 SS-TCP-NA 🇷🇺 RU-62.113.114.116:42320, server: 62.113.114.116, port: 42320, type: ss, cipher: chacha20-ietf-poly1305, password: BShcek5ydIWbXEnhI2vIym, udp: true, tfo: true}
+  - {name: 🇷🇺 SS-TCP-NA 🇷🇺 RU-95.142.47.40:62238, server: 95.142.47.40, port: 62238, type: ss, cipher: chacha20-ietf-poly1305, password: 5y5cwrCR8Iun5nlMSFS8uJ, udp: true, tfo: true}
+  - {name: 🇸🇬 SS-TCP-NA 🇸🇬 SG-154.26.132.38:16922, server: 154.26.132.38, port: 16922, type: ss, cipher: chacha20-ietf-poly1305, password: 42d2b47181a32de7, udp: true, tfo: true}
+  - {name: 🇺🇸 SS-TCP-NA 🇺🇸 US-156.146.38.170:443, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: true}
+  - {name: 🇺🇸 SS-TCP-NA 🇺🇸 US-185.33.84.181:21484, server: 185.33.84.181, port: 21484, type: ss, cipher: chacha20-ietf-poly1305, password: 1jCMNPLyZb7it1IQJpqbXT, udp: true, tfo: true}
