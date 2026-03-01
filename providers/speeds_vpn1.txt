@@ -1,4 +1,4 @@
 proxies:
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 192ms, server: 213.156.137.142, port: 43659, type: ss, cipher: chacha20-ietf-poly1305, password: a8201bbd740420bb, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX down, server: 78.38.246.150, port: 8446, type: ss, cipher: chacha20-poly1305, password: 6e3e43f4-12b7-42f1-8b93-41a152d5612d, udp: true, tfo: true}
-  - {name: speeds_vpn1 🔒 TR-WS-N/A ❔ XX 3ms, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 SS-TCP-TLS ❔ XX 105ms, server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 VM-- ❔ XX down, server: "", port: 0, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
+  - {name: speeds_vpn1 🔒 VM-- ❔ XX down 2, server: "", port: 0, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: true}
