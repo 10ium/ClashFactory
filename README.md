@@ -12,10 +12,9 @@
 
 برای استفاده، لینک‌های زیر را مستقیما در کلش کپی کنید.
 
-* **10ium-config-fetcher**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-config-fetcher.yaml`
-* **10ium-configs-collector-ws**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-configs-collector-ws.yaml`
+* **10ium-V2Hub-custum**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-V2Hub-custum.yaml`
+* **10ium-V2RayAggregator**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-V2RayAggregator.yaml`
 * **itsyebekhe-PSG-custum**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/itsyebekhe-PSG-custum.yaml`
-* **speeds_vpn1**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/speeds_vpn1.yaml`
 
 <!-- END_LINKS -->
 
