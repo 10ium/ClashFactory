@@ -12,7 +12,6 @@
 
 برای استفاده، لینک‌های زیر را مستقیما در کلش کپی کنید.
 
-* **10ium-V2RayAggregator**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/10ium-V2RayAggregator.yaml`
 * **itsyebekhe-PSG-custum**: `https://raw.githubusercontent.com/10ium/ClashFactory/main/output/itsyebekhe-PSG-custum.yaml`
 
 <!-- END_LINKS -->
