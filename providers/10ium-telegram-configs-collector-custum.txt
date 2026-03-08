@@ -33,8 +33,8 @@ proxies:
   - {name: 🇩🇪 SS-TCP-NA 🇩🇪 DE-57.129.95.198:11201, server: 57.129.95.198, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d6b0973401858b29, udp: true, tfo: true}
   - {name: 🇩🇪 SS-TCP-NA 🇩🇪 DE-95.164.123.39:32821, server: 95.164.123.39, port: 32821, type: ss, cipher: chacha20-ietf-poly1305, password: fBTl409Xqg3DwqKili0NQF, udp: true, tfo: true}
   - {name: 🇫🇷 SS-TCP-NA 🇫🇷 FR-162.19.208.118:50285, server: 162.19.208.118, port: 50285, type: ss, cipher: chacha20-ietf-poly1305, password: 4anGtou86vGB7r1lOm5n8g, udp: true, tfo: true}
-  - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-20.117.138.188:443, server: 20.117.138.188, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
-  - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-20.117.138.188:443 2, server: 20.117.138.188, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true, tfo: true}
+  - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-20.117.138.188:443, server: 20.117.138.188, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true, tfo: true}
+  - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-20.117.138.188:443 2, server: 20.117.138.188, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: kaQH3hGdcP80XEDI, udp: true, tfo: true}
   - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-51.104.17.254:443, server: 51.104.17.254, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: true}
   - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-82.38.31.199:8080, server: 82.38.31.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: true}
   - {name: 🇬🇧 SS-TCP-NA 🇬🇧 GB-82.38.31.35:8080, server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: true}
